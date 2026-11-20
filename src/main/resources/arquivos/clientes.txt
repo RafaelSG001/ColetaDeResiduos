@@ -1,0 +1,1201 @@
+id_cliente;segmento;cidade;estado;volume_medio_mensal_ton;contrato_ativo;satisfacao_cliente;tempo_contrato_meses
+1;Condomínio;Brasília;DF;116.65;Sim;9.0;35
+2;Condomínio;Curitiba;PR;106.1;Sim;8.6;98
+3;Indústria;Curitiba;PR;211.36;Não;9.7;16
+4;Universidade;Porto Alegre;RS;49.3;Sim;9.3;42
+5;Shopping;Campinas;SP;168.32;Não;9.1;116
+6;Supermercado;Belo Horizonte;MG;111.52;Sim;7.6;40
+7;Condomínio;Belo Horizonte;MG;191.58;Não;6.8;119
+8;Shopping;Curitiba;PR;114.82;Não;8.2;87
+9;Universidade;Porto Alegre;RS;37.29;Não;6.3;30
+10;Supermercado;Fortaleza;CE;70.26;Sim;7.1;82
+11;Construção Civil;Brasília;DF;3.05;Sim;8.3;118
+12;Hospital;Recife;PE;159.46;Sim;8.5;6
+13;Restaurante;Curitiba;PR;106.64;Não;7.4;45
+14;Hospital;Curitiba;PR;32.5;Não;8.5;83
+15;Restaurante;Campinas;SP;172.22;Não;9.0;78
+16;Construção Civil;Porto Alegre;RS;51.04;Sim;7.1;39
+17;Construção Civil;Porto Alegre;RS;153.37;Não;9.2;4
+18;Universidade;Curitiba;PR;90.53;Não;7.4;46
+19;Supermercado;São Paulo;SP;79.84;Sim;6.2;80
+20;Construção Civil;Recife;PE;162.42;Sim;8.5;9
+21;Shopping;Belo Horizonte;MG;197.32;Sim;7.1;99
+22;Universidade;Fortaleza;CE;174.46;Não;6.8;115
+23;Indústria;Belo Horizonte;MG;68.79;Não;7.7;62
+24;Construção Civil;Rio de Janeiro;RJ;3.63;Não;8.5;80
+25;Construção Civil;Fortaleza;CE;186.88;Não;9.2;113
+26;Shopping;Salvador;BA;47.6;Não;8.5;94
+27;Supermercado;Brasília;DF;9.69;Sim;6.0;65
+28;Supermercado;Porto Alegre;RS;83.53;Sim;6.3;55
+29;Supermercado;Belo Horizonte;MG;33.42;Não;7.6;51
+30;Condomínio;São Paulo;SP;205.18;Sim;7.7;96
+31;Condomínio;Salvador;BA;30.48;Não;8.1;106
+32;Restaurante;São Paulo;SP;113.47;Sim;7.0;73
+33;Condomínio;Campinas;SP;196.39;Sim;7.0;22
+34;Universidade;Campinas;SP;192.0;Não;9.8;30
+35;Restaurante;Brasília;DF;153.54;Sim;8.4;43
+36;Hospital;Curitiba;PR;139.17;Não;6.4;72
+37;Indústria;Salvador;BA;209.12;Sim;6.9;77
+38;Indústria;Fortaleza;CE;73.18;Não;6.4;91
+39;Restaurante;Porto Alegre;RS;20.73;Sim;9.0;94
+40;Shopping;Curitiba;PR;29.74;Não;6.2;110
+41;Condomínio;Salvador;BA;32.88;Não;7.2;70
+42;Construção Civil;Salvador;BA;108.07;Sim;9.9;73
+43;Supermercado;Porto Alegre;RS;199.29;Sim;6.4;35
+44;Construção Civil;Campinas;SP;96.53;Não;7.2;36
+45;Construção Civil;Fortaleza;CE;22.49;Não;8.3;119
+46;Indústria;Curitiba;PR;72.31;Sim;6.9;116
+47;Restaurante;Curitiba;PR;59.34;Sim;8.8;106
+48;Hospital;Recife;PE;98.43;Não;7.5;84
+49;Supermercado;Campinas;SP;122.36;Sim;8.3;78
+50;Universidade;Fortaleza;CE;80.98;Não;8.2;59
+51;Shopping;Porto Alegre;RS;26.29;Não;6.1;37
+52;Condomínio;Curitiba;PR;174.77;Sim;7.3;11
+53;Hospital;Curitiba;PR;147.66;Não;6.2;107
+54;Supermercado;São Paulo;SP;77.58;Não;7.4;94
+55;Shopping;São Paulo;SP;176.12;Sim;6.3;112
+56;Indústria;Rio de Janeiro;RJ;108.51;Sim;9.3;61
+57;Universidade;Campinas;SP;42.15;Sim;8.5;100
+58;Universidade;Belo Horizonte;MG;93.19;Não;7.3;66
+59;Supermercado;Recife;PE;78.69;Sim;6.4;110
+60;Supermercado;Fortaleza;CE;182.02;Não;7.0;16
+61;Restaurante;Recife;PE;76.57;Não;7.8;70
+62;Indústria;Rio de Janeiro;RJ;7.79;Não;8.8;86
+63;Restaurante;Belo Horizonte;MG;55.84;Não;9.5;117
+64;Hospital;Belo Horizonte;MG;62.81;Não;8.1;93
+65;Universidade;São Paulo;SP;187.43;Sim;9.6;36
+66;Restaurante;Salvador;BA;186.69;Não;6.3;82
+67;Shopping;Brasília;DF;134.26;Sim;8.8;4
+68;Restaurante;Belo Horizonte;MG;175.02;Sim;8.1;94
+69;Construção Civil;São Paulo;SP;147.87;Não;9.7;31
+70;Indústria;Recife;PE;160.76;Não;9.6;70
+71;Supermercado;Porto Alegre;RS;24.52;Não;7.3;35
+72;Construção Civil;Fortaleza;CE;47.76;Sim;7.0;18
+73;Hospital;Fortaleza;CE;156.08;Sim;9.8;98
+74;Indústria;Recife;PE;39.47;Sim;8.7;18
+75;Shopping;Curitiba;PR;119.1;Sim;9.2;64
+76;Shopping;Salvador;BA;68.74;Sim;8.0;14
+77;Construção Civil;Salvador;BA;82.1;Sim;6.1;87
+78;Hospital;Recife;PE;178.02;Não;9.5;60
+79;Construção Civil;Porto Alegre;RS;47.15;Sim;9.1;71
+80;Restaurante;Porto Alegre;RS;154.55;Não;8.8;119
+81;Condomínio;São Paulo;SP;187.81;Sim;6.5;80
+82;Construção Civil;Salvador;BA;106.07;Não;7.1;56
+83;Construção Civil;Fortaleza;CE;96.49;Sim;6.3;18
+84;Universidade;Brasília;DF;35.3;Não;8.6;106
+85;Supermercado;Fortaleza;CE;62.43;Não;7.2;61
+86;Indústria;Campinas;SP;16.64;Não;6.9;46
+87;Shopping;Curitiba;PR;164.62;Sim;6.3;76
+88;Universidade;Salvador;BA;58.36;Não;6.1;21
+89;Condomínio;Campinas;SP;164.76;Não;7.3;22
+90;Shopping;Salvador;BA;27.47;Sim;6.4;61
+91;Construção Civil;Curitiba;PR;40.85;Não;9.3;107
+92;Condomínio;São Paulo;SP;84.14;Não;7.3;27
+93;Construção Civil;Brasília;DF;107.13;Não;7.9;53
+94;Hospital;Campinas;SP;158.75;Sim;6.9;35
+95;Condomínio;Fortaleza;CE;155.84;Não;6.8;107
+96;Supermercado;Recife;PE;143.55;Não;7.9;103
+97;Universidade;Porto Alegre;RS;172.96;Sim;7.3;88
+98;Condomínio;São Paulo;SP;5.8;Sim;9.5;77
+99;Supermercado;São Paulo;SP;136.44;Não;6.9;53
+100;Shopping;São Paulo;SP;104.71;Sim;7.1;103
+101;Condomínio;Belo Horizonte;MG;14.77;Sim;8.0;119
+102;Condomínio;Curitiba;PR;128.41;Sim;6.6;19
+103;Condomínio;Porto Alegre;RS;55.14;Não;6.7;79
+104;Indústria;Brasília;DF;114.14;Não;9.4;98
+105;Construção Civil;Fortaleza;CE;22.13;Sim;9.3;57
+106;Construção Civil;Fortaleza;CE;68.13;Não;9.1;54
+107;Shopping;Salvador;BA;187.96;Sim;7.3;23
+108;Construção Civil;Fortaleza;CE;60.24;Sim;6.5;57
+109;Universidade;Rio de Janeiro;RJ;156.71;Sim;9.0;28
+110;Restaurante;Porto Alegre;RS;187.78;Não;7.6;72
+111;Supermercado;Belo Horizonte;MG;98.46;Sim;7.2;56
+112;Shopping;Belo Horizonte;MG;204.31;Não;7.0;91
+113;Hospital;Campinas;SP;124.98;Não;7.3;91
+114;Universidade;Salvador;BA;21.15;Sim;9.2;99
+115;Universidade;Rio de Janeiro;RJ;86.86;Sim;7.9;74
+116;Indústria;Curitiba;PR;108.91;Sim;8.6;18
+117;Construção Civil;Salvador;BA;105.89;Não;8.2;54
+118;Universidade;Fortaleza;CE;204.38;Não;9.9;66
+119;Supermercado;Campinas;SP;119.0;Sim;8.5;18
+120;Condomínio;Porto Alegre;RS;99.32;Sim;6.4;60
+121;Supermercado;Recife;PE;49.98;Não;7.7;80
+122;Indústria;Rio de Janeiro;RJ;19.33;Sim;6.9;26
+123;Universidade;Campinas;SP;150.5;Não;8.7;115
+124;Shopping;Salvador;BA;64.0;Sim;9.5;119
+125;Restaurante;Brasília;DF;190.97;Sim;7.4;30
+126;Indústria;Rio de Janeiro;RJ;127.76;Não;8.4;60
+127;Shopping;Salvador;BA;33.75;Sim;7.7;116
+128;Supermercado;Rio de Janeiro;RJ;133.04;Sim;7.5;77
+129;Universidade;Salvador;BA;111.58;Não;8.1;99
+130;Construção Civil;Brasília;DF;60.85;Sim;9.2;13
+131;Restaurante;São Paulo;SP;145.36;Não;6.1;73
+132;Condomínio;Belo Horizonte;MG;99.69;Não;6.3;4
+133;Shopping;Curitiba;PR;212.89;Não;9.6;113
+134;Indústria;Salvador;BA;94.26;Sim;6.6;75
+135;Construção Civil;Belo Horizonte;MG;201.49;Não;9.6;7
+136;Condomínio;Brasília;DF;143.15;Sim;7.3;72
+137;Hospital;Campinas;SP;4.31;Não;6.2;83
+138;Indústria;Belo Horizonte;MG;49.87;Não;9.3;63
+139;Construção Civil;Fortaleza;CE;64.2;Não;6.1;63
+140;Construção Civil;Recife;PE;205.17;Sim;9.8;36
+141;Shopping;Rio de Janeiro;RJ;195.8;Sim;6.1;20
+142;Construção Civil;Porto Alegre;RS;125.62;Não;6.1;98
+143;Supermercado;Fortaleza;CE;210.94;Sim;8.4;28
+144;Indústria;Brasília;DF;127.68;Não;7.5;48
+145;Shopping;Porto Alegre;RS;161.97;Não;8.2;21
+146;Shopping;Porto Alegre;RS;144.23;Sim;7.8;69
+147;Construção Civil;Salvador;BA;104.8;Sim;9.6;109
+148;Restaurante;Fortaleza;CE;179.48;Não;7.0;18
+149;Indústria;Brasília;DF;197.35;Sim;7.5;105
+150;Condomínio;Salvador;BA;112.03;Não;6.0;24
+151;Supermercado;Recife;PE;92.63;Não;9.0;107
+152;Universidade;Rio de Janeiro;RJ;57.84;Sim;6.6;84
+153;Construção Civil;Brasília;DF;154.22;Não;9.7;40
+154;Universidade;Curitiba;PR;20.94;Sim;6.6;85
+155;Construção Civil;Recife;PE;72.66;Sim;8.1;41
+156;Restaurante;Brasília;DF;191.9;Não;6.7;63
+157;Universidade;Recife;PE;2.25;Não;9.6;40
+158;Universidade;Salvador;BA;178.17;Sim;7.4;102
+159;Construção Civil;Curitiba;PR;132.81;Não;6.3;30
+160;Construção Civil;Fortaleza;CE;22.58;Não;7.4;19
+161;Condomínio;Curitiba;PR;87.45;Não;7.4;7
+162;Construção Civil;Recife;PE;192.65;Não;8.9;75
+163;Supermercado;Porto Alegre;RS;119.34;Sim;8.0;77
+164;Restaurante;Belo Horizonte;MG;99.96;Sim;8.4;50
+165;Hospital;Brasília;DF;164.41;Sim;6.3;112
+166;Hospital;Brasília;DF;96.86;Não;9.3;35
+167;Shopping;São Paulo;SP;89.01;Não;8.9;63
+168;Shopping;Brasília;DF;9.78;Não;8.7;48
+169;Condomínio;Curitiba;PR;178.75;Sim;9.7;52
+170;Condomínio;Rio de Janeiro;RJ;199.18;Sim;7.7;69
+171;Construção Civil;Recife;PE;8.43;Não;7.7;29
+172;Construção Civil;Fortaleza;CE;47.87;Não;7.3;15
+173;Universidade;Porto Alegre;RS;133.58;Sim;9.4;106
+174;Universidade;Belo Horizonte;MG;46.46;Não;9.5;14
+175;Condomínio;Campinas;SP;92.99;Sim;9.5;109
+176;Universidade;São Paulo;SP;71.59;Sim;7.0;37
+177;Restaurante;Salvador;BA;167.87;Sim;9.3;81
+178;Construção Civil;Recife;PE;186.99;Sim;6.5;57
+179;Restaurante;Recife;PE;110.97;Não;8.9;5
+180;Supermercado;Belo Horizonte;MG;183.05;Não;7.5;20
+181;Indústria;Brasília;DF;142.45;Sim;8.5;57
+182;Hospital;Campinas;SP;194.56;Sim;7.4;26
+183;Hospital;Curitiba;PR;107.19;Não;7.4;14
+184;Indústria;Fortaleza;CE;125.62;Sim;7.7;58
+185;Restaurante;Porto Alegre;RS;170.02;Sim;8.0;22
+186;Hospital;Belo Horizonte;MG;12.84;Sim;6.6;40
+187;Shopping;São Paulo;SP;65.12;Sim;9.0;72
+188;Supermercado;Salvador;BA;102.56;Não;9.8;36
+189;Supermercado;Rio de Janeiro;RJ;13.26;Não;7.2;88
+190;Shopping;São Paulo;SP;151.0;Não;6.7;27
+191;Hospital;Rio de Janeiro;RJ;187.2;Não;6.8;59
+192;Restaurante;Campinas;SP;45.45;Não;9.3;51
+193;Construção Civil;Rio de Janeiro;RJ;126.54;Sim;9.7;27
+194;Universidade;Salvador;BA;33.76;Sim;7.9;26
+195;Condomínio;Recife;PE;169.39;Não;9.8;71
+196;Indústria;Campinas;SP;60.34;Sim;6.7;30
+197;Construção Civil;Fortaleza;CE;177.27;Não;7.8;71
+198;Hospital;Brasília;DF;54.37;Sim;7.9;109
+199;Indústria;Curitiba;PR;136.6;Sim;9.3;26
+200;Restaurante;Campinas;SP;101.5;Não;6.2;106
+201;Condomínio;Rio de Janeiro;RJ;86.4;Sim;8.5;94
+202;Universidade;São Paulo;SP;167.04;Sim;7.2;38
+203;Universidade;Belo Horizonte;MG;173.32;Não;6.0;46
+204;Supermercado;Recife;PE;137.16;Não;9.9;34
+205;Hospital;Curitiba;PR;59.27;Não;6.9;85
+206;Construção Civil;Salvador;BA;179.35;Sim;8.2;97
+207;Indústria;Salvador;BA;96.49;Não;8.3;76
+208;Condomínio;Recife;PE;87.96;Não;9.3;10
+209;Construção Civil;Belo Horizonte;MG;19.76;Não;8.5;59
+210;Universidade;Brasília;DF;134.58;Não;6.1;75
+211;Shopping;Belo Horizonte;MG;184.24;Não;8.3;100
+212;Construção Civil;Rio de Janeiro;RJ;62.6;Sim;8.4;29
+213;Construção Civil;São Paulo;SP;7.8;Sim;6.6;115
+214;Condomínio;Brasília;DF;188.48;Sim;7.7;53
+215;Condomínio;Porto Alegre;RS;131.57;Sim;6.6;41
+216;Construção Civil;Fortaleza;CE;143.45;Não;9.5;53
+217;Shopping;Porto Alegre;RS;149.27;Não;6.1;16
+218;Condomínio;Campinas;SP;65.13;Não;8.1;16
+219;Restaurante;Brasília;DF;138.8;Sim;7.8;17
+220;Indústria;Rio de Janeiro;RJ;83.49;Não;6.9;26
+221;Universidade;Rio de Janeiro;RJ;162.69;Não;6.7;21
+222;Restaurante;Recife;PE;11.91;Não;7.9;95
+223;Universidade;Porto Alegre;RS;18.34;Não;8.0;100
+224;Condomínio;Rio de Janeiro;RJ;109.68;Sim;6.5;42
+225;Supermercado;Porto Alegre;RS;218.1;Não;6.7;91
+226;Construção Civil;Salvador;BA;18.32;Sim;7.1;120
+227;Condomínio;Rio de Janeiro;RJ;83.13;Não;8.3;17
+228;Indústria;Fortaleza;CE;155.47;Não;7.6;49
+229;Shopping;Porto Alegre;RS;189.75;Sim;6.4;62
+230;Hospital;Curitiba;PR;144.38;Não;6.9;117
+231;Universidade;Rio de Janeiro;RJ;170.15;Não;9.6;49
+232;Restaurante;Fortaleza;CE;47.3;Sim;7.0;21
+233;Restaurante;Belo Horizonte;MG;103.39;Não;9.2;94
+234;Indústria;Curitiba;PR;216.16;Sim;8.8;58
+235;Universidade;Campinas;SP;153.5;Não;7.1;116
+236;Universidade;São Paulo;SP;74.88;Sim;8.1;119
+237;Condomínio;Fortaleza;CE;145.21;Sim;9.3;63
+238;Indústria;Recife;PE;213.52;Sim;8.2;82
+239;Condomínio;Salvador;BA;145.8;Sim;6.7;77
+240;Universidade;Curitiba;PR;198.13;Não;7.4;57
+241;Universidade;Belo Horizonte;MG;73.18;Não;6.9;4
+242;Supermercado;Brasília;DF;58.65;Não;9.7;57
+243;Construção Civil;Fortaleza;CE;116.47;Não;8.9;77
+244;Shopping;Belo Horizonte;MG;168.83;Sim;9.1;40
+245;Condomínio;Fortaleza;CE;58.5;Sim;6.5;35
+246;Shopping;Fortaleza;CE;24.49;Sim;8.0;81
+247;Shopping;São Paulo;SP;208.79;Não;8.2;36
+248;Restaurante;Salvador;BA;4.7;Não;9.4;90
+249;Hospital;Belo Horizonte;MG;99.71;Não;7.7;19
+250;Hospital;Campinas;SP;19.98;Não;8.4;73
+251;Universidade;São Paulo;SP;108.21;Sim;7.2;31
+252;Shopping;São Paulo;SP;108.17;Sim;8.4;93
+253;Indústria;Fortaleza;CE;58.91;Não;7.9;10
+254;Supermercado;Salvador;BA;50.83;Sim;9.3;10
+255;Shopping;Fortaleza;CE;210.24;Não;9.0;36
+256;Supermercado;Rio de Janeiro;RJ;135.5;Não;8.7;104
+257;Indústria;Campinas;SP;2.76;Não;7.1;88
+258;Universidade;Salvador;BA;69.61;Sim;7.7;115
+259;Construção Civil;Fortaleza;CE;119.84;Não;8.4;100
+260;Construção Civil;Fortaleza;CE;158.05;Sim;9.7;18
+261;Supermercado;Brasília;DF;168.54;Não;6.8;28
+262;Restaurante;Campinas;SP;131.97;Não;8.4;37
+263;Shopping;Campinas;SP;196.57;Sim;6.7;87
+264;Hospital;Campinas;SP;82.83;Não;6.9;120
+265;Supermercado;Curitiba;PR;131.03;Não;7.9;68
+266;Shopping;Campinas;SP;199.63;Não;9.6;47
+267;Restaurante;Campinas;SP;53.58;Sim;7.0;112
+268;Shopping;Recife;PE;153.72;Sim;7.8;4
+269;Hospital;Salvador;BA;13.53;Não;8.0;77
+270;Indústria;Campinas;SP;49.4;Sim;9.1;3
+271;Restaurante;Brasília;DF;170.35;Sim;7.7;3
+272;Shopping;Porto Alegre;RS;185.58;Não;9.4;29
+273;Indústria;Rio de Janeiro;RJ;98.22;Não;7.8;27
+274;Universidade;Rio de Janeiro;RJ;19.96;Sim;6.5;92
+275;Shopping;Rio de Janeiro;RJ;189.78;Sim;7.6;94
+276;Hospital;Porto Alegre;RS;125.05;Não;6.3;84
+277;Indústria;Salvador;BA;75.13;Não;9.4;84
+278;Construção Civil;Curitiba;PR;144.99;Sim;6.0;20
+279;Supermercado;Recife;PE;171.87;Não;9.5;104
+280;Indústria;Fortaleza;CE;79.03;Não;9.0;14
+281;Condomínio;Curitiba;PR;188.65;Sim;8.7;46
+282;Shopping;Belo Horizonte;MG;82.94;Não;8.1;29
+283;Restaurante;Salvador;BA;141.81;Sim;7.2;88
+284;Indústria;Recife;PE;23.39;Sim;7.5;8
+285;Universidade;Salvador;BA;184.89;Sim;8.7;21
+286;Universidade;Belo Horizonte;MG;101.9;Sim;6.0;42
+287;Universidade;Belo Horizonte;MG;16.85;Sim;9.3;67
+288;Condomínio;Rio de Janeiro;RJ;122.06;Não;6.9;11
+289;Condomínio;Belo Horizonte;MG;12.55;Não;6.9;9
+290;Shopping;Porto Alegre;RS;124.76;Não;9.9;64
+291;Condomínio;Rio de Janeiro;RJ;135.36;Não;6.3;24
+292;Shopping;Brasília;DF;115.66;Sim;9.2;66
+293;Indústria;Curitiba;PR;111.28;Não;7.3;91
+294;Hospital;São Paulo;SP;84.87;Não;8.1;115
+295;Supermercado;Fortaleza;CE;217.01;Não;6.8;99
+296;Restaurante;Salvador;BA;11.72;Não;9.3;100
+297;Restaurante;Belo Horizonte;MG;155.68;Sim;6.6;70
+298;Shopping;Campinas;SP;177.69;Não;8.9;44
+299;Condomínio;Salvador;BA;119.71;Sim;7.4;88
+300;Shopping;Rio de Janeiro;RJ;46.54;Sim;9.0;29
+301;Restaurante;Porto Alegre;RS;151.74;Não;7.7;104
+302;Restaurante;Salvador;BA;76.72;Sim;7.2;89
+303;Construção Civil;Salvador;BA;117.87;Não;8.6;13
+304;Universidade;Campinas;SP;68.25;Sim;6.1;80
+305;Hospital;Recife;PE;95.27;Sim;9.5;103
+306;Supermercado;Belo Horizonte;MG;131.51;Sim;7.9;89
+307;Indústria;Porto Alegre;RS;177.39;Sim;7.9;9
+308;Restaurante;São Paulo;SP;213.54;Sim;7.2;60
+309;Restaurante;São Paulo;SP;62.24;Não;7.1;118
+310;Supermercado;Campinas;SP;50.54;Não;6.5;84
+311;Universidade;Curitiba;PR;138.2;Sim;6.5;81
+312;Condomínio;Rio de Janeiro;RJ;64.84;Não;7.0;106
+313;Supermercado;Salvador;BA;180.32;Sim;6.8;69
+314;Restaurante;Recife;PE;48.27;Sim;9.4;33
+315;Universidade;Curitiba;PR;45.21;Não;6.4;108
+316;Restaurante;Fortaleza;CE;84.41;Não;8.2;45
+317;Condomínio;Rio de Janeiro;RJ;106.96;Sim;7.2;105
+318;Indústria;Salvador;BA;74.0;Sim;7.7;82
+319;Universidade;Brasília;DF;134.1;Sim;7.1;86
+320;Indústria;São Paulo;SP;171.58;Não;7.3;113
+321;Construção Civil;Porto Alegre;RS;103.09;Não;9.0;47
+322;Supermercado;Campinas;SP;157.15;Não;8.2;66
+323;Construção Civil;Salvador;BA;95.66;Não;7.7;23
+324;Condomínio;Porto Alegre;RS;216.35;Sim;6.5;50
+325;Shopping;São Paulo;SP;132.1;Sim;9.7;61
+326;Construção Civil;Recife;PE;54.92;Não;6.6;33
+327;Shopping;Curitiba;PR;45.44;Não;8.5;32
+328;Supermercado;Porto Alegre;RS;96.92;Não;6.6;7
+329;Universidade;Belo Horizonte;MG;70.23;Não;9.5;79
+330;Restaurante;Rio de Janeiro;RJ;100.96;Sim;9.7;12
+331;Condomínio;Brasília;DF;5.2;Sim;8.6;50
+332;Condomínio;São Paulo;SP;117.27;Não;7.9;35
+333;Restaurante;Rio de Janeiro;RJ;32.9;Não;9.1;93
+334;Indústria;Curitiba;PR;125.89;Não;8.1;82
+335;Supermercado;São Paulo;SP;76.38;Não;7.7;97
+336;Condomínio;Brasília;DF;108.62;Não;6.1;112
+337;Condomínio;São Paulo;SP;149.59;Sim;8.3;24
+338;Restaurante;Campinas;SP;157.97;Não;8.3;3
+339;Hospital;Brasília;DF;52.25;Não;8.9;85
+340;Supermercado;Fortaleza;CE;60.28;Sim;6.6;118
+341;Restaurante;Brasília;DF;24.58;Não;8.3;66
+342;Hospital;São Paulo;SP;27.55;Sim;6.9;77
+343;Shopping;Recife;PE;103.02;Sim;9.4;13
+344;Indústria;Curitiba;PR;101.91;Não;6.1;92
+345;Supermercado;Porto Alegre;RS;9.96;Sim;6.2;111
+346;Universidade;Campinas;SP;156.23;Sim;7.7;18
+347;Shopping;Fortaleza;CE;139.41;Não;9.2;76
+348;Universidade;Brasília;DF;192.46;Não;8.1;41
+349;Condomínio;Rio de Janeiro;RJ;190.06;Não;8.1;10
+350;Construção Civil;Campinas;SP;106.88;Sim;9.0;42
+351;Hospital;Rio de Janeiro;RJ;181.17;Sim;6.2;96
+352;Hospital;Porto Alegre;RS;35.85;Sim;8.3;120
+353;Indústria;Rio de Janeiro;RJ;171.2;Sim;8.5;96
+354;Restaurante;Belo Horizonte;MG;156.63;Sim;6.8;49
+355;Supermercado;Recife;PE;26.69;Não;6.2;68
+356;Shopping;Rio de Janeiro;RJ;199.86;Não;8.4;58
+357;Restaurante;Recife;PE;43.55;Não;6.2;107
+358;Indústria;Porto Alegre;RS;104.12;Sim;9.6;25
+359;Condomínio;Salvador;BA;135.1;Não;8.3;64
+360;Restaurante;Salvador;BA;191.65;Sim;9.3;116
+361;Shopping;Belo Horizonte;MG;30.91;Sim;7.2;21
+362;Hospital;Rio de Janeiro;RJ;41.57;Não;9.0;13
+363;Construção Civil;Salvador;BA;15.47;Sim;9.6;66
+364;Condomínio;Curitiba;PR;15.99;Sim;6.0;67
+365;Supermercado;Belo Horizonte;MG;71.07;Sim;6.4;108
+366;Indústria;São Paulo;SP;79.49;Sim;8.1;94
+367;Restaurante;Belo Horizonte;MG;185.47;Sim;8.8;82
+368;Supermercado;Fortaleza;CE;40.1;Sim;6.8;10
+369;Indústria;Curitiba;PR;91.24;Sim;9.5;5
+370;Indústria;Fortaleza;CE;167.05;Sim;8.7;16
+371;Condomínio;Belo Horizonte;MG;149.78;Não;6.2;87
+372;Indústria;São Paulo;SP;24.02;Sim;6.2;107
+373;Restaurante;Salvador;BA;161.84;Não;7.2;94
+374;Shopping;Fortaleza;CE;135.33;Não;8.3;76
+375;Restaurante;Curitiba;PR;167.18;Sim;6.5;6
+376;Condomínio;Campinas;SP;3.94;Não;6.6;56
+377;Condomínio;Porto Alegre;RS;21.79;Não;6.8;79
+378;Shopping;Belo Horizonte;MG;181.62;Não;8.8;88
+379;Construção Civil;São Paulo;SP;150.17;Sim;8.9;91
+380;Restaurante;Porto Alegre;RS;191.69;Não;9.7;90
+381;Condomínio;Brasília;DF;89.54;Sim;8.2;3
+382;Condomínio;São Paulo;SP;42.75;Não;7.5;19
+383;Restaurante;Recife;PE;172.84;Não;7.3;39
+384;Condomínio;Brasília;DF;207.35;Sim;6.4;80
+385;Hospital;São Paulo;SP;96.78;Sim;6.1;117
+386;Shopping;Porto Alegre;RS;138.49;Sim;6.1;79
+387;Hospital;Campinas;SP;159.03;Sim;7.5;116
+388;Condomínio;Campinas;SP;106.11;Sim;9.0;25
+389;Indústria;Belo Horizonte;MG;150.88;Não;6.7;44
+390;Indústria;Curitiba;PR;104.28;Sim;8.5;32
+391;Restaurante;Recife;PE;179.97;Não;6.0;76
+392;Universidade;Brasília;DF;136.48;Sim;7.0;58
+393;Shopping;Recife;PE;22.15;Sim;7.0;45
+394;Restaurante;São Paulo;SP;212.72;Sim;8.7;7
+395;Universidade;São Paulo;SP;212.81;Sim;8.7;97
+396;Hospital;Belo Horizonte;MG;179.27;Não;7.2;103
+397;Shopping;Porto Alegre;RS;114.52;Sim;8.8;65
+398;Universidade;Belo Horizonte;MG;140.7;Não;6.3;74
+399;Supermercado;Rio de Janeiro;RJ;79.26;Sim;8.5;27
+400;Indústria;Belo Horizonte;MG;52.8;Não;7.3;75
+401;Supermercado;Brasília;DF;45.03;Não;9.5;98
+402;Shopping;São Paulo;SP;5.6;Não;7.8;77
+403;Indústria;São Paulo;SP;93.25;Sim;9.1;3
+404;Condomínio;Belo Horizonte;MG;187.2;Não;6.2;63
+405;Supermercado;Curitiba;PR;139.48;Não;8.7;35
+406;Supermercado;Fortaleza;CE;62.85;Sim;6.7;92
+407;Condomínio;Curitiba;PR;78.3;Sim;9.5;90
+408;Shopping;Porto Alegre;RS;122.44;Não;7.9;41
+409;Universidade;Recife;PE;135.7;Sim;7.6;113
+410;Construção Civil;Belo Horizonte;MG;70.81;Não;7.1;58
+411;Indústria;Recife;PE;219.84;Não;9.6;48
+412;Construção Civil;Rio de Janeiro;RJ;54.62;Sim;7.7;88
+413;Universidade;Campinas;SP;2.19;Sim;6.9;82
+414;Indústria;Rio de Janeiro;RJ;219.02;Sim;9.5;44
+415;Hospital;Belo Horizonte;MG;172.8;Não;7.9;8
+416;Indústria;São Paulo;SP;197.33;Sim;8.9;62
+417;Construção Civil;Curitiba;PR;166.8;Sim;8.8;79
+418;Condomínio;Recife;PE;170.68;Sim;6.6;38
+419;Supermercado;Campinas;SP;164.91;Sim;8.5;18
+420;Supermercado;Campinas;SP;14.72;Sim;6.5;52
+421;Condomínio;São Paulo;SP;71.12;Não;9.9;101
+422;Indústria;Recife;PE;85.41;Sim;8.5;6
+423;Supermercado;Brasília;DF;41.48;Sim;6.5;110
+424;Condomínio;Salvador;BA;61.1;Sim;8.4;19
+425;Construção Civil;Brasília;DF;199.67;Não;6.6;89
+426;Indústria;Recife;PE;112.91;Sim;8.4;13
+427;Indústria;Brasília;DF;132.02;Sim;7.5;111
+428;Restaurante;Porto Alegre;RS;46.28;Não;8.2;31
+429;Supermercado;Recife;PE;203.36;Sim;8.8;99
+430;Condomínio;Porto Alegre;RS;100.85;Não;9.2;81
+431;Universidade;Brasília;DF;28.19;Sim;9.6;98
+432;Shopping;Porto Alegre;RS;66.73;Não;8.9;72
+433;Condomínio;São Paulo;SP;43.31;Não;9.3;54
+434;Supermercado;Porto Alegre;RS;195.53;Sim;6.4;25
+435;Construção Civil;São Paulo;SP;196.61;Não;7.8;62
+436;Supermercado;Belo Horizonte;MG;78.52;Sim;7.6;31
+437;Condomínio;Campinas;SP;4.34;Sim;7.2;17
+438;Supermercado;Recife;PE;79.5;Sim;6.6;82
+439;Indústria;Curitiba;PR;63.56;Sim;8.7;105
+440;Universidade;Belo Horizonte;MG;46.12;Sim;8.3;95
+441;Universidade;Fortaleza;CE;106.13;Sim;6.4;110
+442;Condomínio;Salvador;BA;8.87;Não;8.9;56
+443;Supermercado;São Paulo;SP;199.41;Não;6.9;86
+444;Universidade;Curitiba;PR;206.95;Não;6.8;116
+445;Supermercado;Curitiba;PR;20.96;Sim;8.6;12
+446;Universidade;Rio de Janeiro;RJ;201.96;Não;6.4;98
+447;Shopping;Belo Horizonte;MG;3.54;Sim;6.8;83
+448;Supermercado;Curitiba;PR;88.46;Sim;9.7;61
+449;Construção Civil;Salvador;BA;89.94;Não;7.7;107
+450;Universidade;Recife;PE;86.72;Não;6.6;108
+451;Construção Civil;Rio de Janeiro;RJ;79.55;Não;7.6;74
+452;Indústria;Curitiba;PR;120.09;Não;6.0;53
+453;Shopping;Curitiba;PR;213.41;Sim;8.2;42
+454;Universidade;Rio de Janeiro;RJ;4.43;Sim;6.1;30
+455;Hospital;Recife;PE;176.12;Não;9.3;116
+456;Hospital;Salvador;BA;28.7;Não;7.4;86
+457;Universidade;São Paulo;SP;151.83;Sim;6.6;27
+458;Supermercado;São Paulo;SP;6.79;Sim;9.1;74
+459;Construção Civil;Porto Alegre;RS;116.68;Não;7.5;95
+460;Restaurante;Campinas;SP;147.9;Não;7.0;16
+461;Condomínio;Recife;PE;99.38;Não;8.1;74
+462;Supermercado;Curitiba;PR;163.46;Sim;8.4;42
+463;Restaurante;Curitiba;PR;142.0;Não;6.2;64
+464;Restaurante;Belo Horizonte;MG;68.2;Não;6.2;43
+465;Shopping;Curitiba;PR;197.33;Sim;6.0;103
+466;Restaurante;Brasília;DF;201.07;Sim;7.3;36
+467;Indústria;Brasília;DF;107.25;Não;9.6;75
+468;Shopping;Fortaleza;CE;47.64;Não;9.4;33
+469;Condomínio;Belo Horizonte;MG;1.95;Não;9.2;85
+470;Shopping;Campinas;SP;196.53;Não;6.5;89
+471;Condomínio;Recife;PE;83.58;Não;9.8;4
+472;Indústria;Brasília;DF;4.18;Não;7.8;114
+473;Condomínio;Recife;PE;59.26;Sim;9.3;110
+474;Shopping;Recife;PE;31.6;Sim;6.0;7
+475;Indústria;Porto Alegre;RS;98.03;Não;9.2;18
+476;Restaurante;Salvador;BA;210.31;Sim;8.3;69
+477;Shopping;Curitiba;PR;137.69;Sim;7.3;26
+478;Restaurante;Recife;PE;206.75;Não;6.2;4
+479;Indústria;São Paulo;SP;133.65;Não;8.0;5
+480;Restaurante;Recife;PE;144.03;Não;6.5;109
+481;Supermercado;Belo Horizonte;MG;15.45;Sim;9.0;47
+482;Supermercado;São Paulo;SP;102.26;Sim;7.7;65
+483;Restaurante;Recife;PE;121.77;Sim;9.2;22
+484;Universidade;Belo Horizonte;MG;73.02;Sim;7.2;6
+485;Shopping;Campinas;SP;144.35;Sim;8.9;54
+486;Construção Civil;Brasília;DF;114.0;Sim;8.3;46
+487;Supermercado;Recife;PE;163.96;Não;9.8;108
+488;Indústria;Recife;PE;46.02;Não;6.7;85
+489;Condomínio;São Paulo;SP;12.85;Não;9.1;110
+490;Universidade;Recife;PE;134.16;Não;6.5;61
+491;Condomínio;Campinas;SP;206.87;Não;8.9;77
+492;Supermercado;Fortaleza;CE;79.19;Não;8.2;69
+493;Shopping;Campinas;SP;179.68;Sim;6.5;60
+494;Construção Civil;São Paulo;SP;27.05;Sim;7.7;3
+495;Condomínio;Curitiba;PR;102.01;Não;7.2;90
+496;Construção Civil;Brasília;DF;21.25;Sim;9.3;69
+497;Universidade;Rio de Janeiro;RJ;130.72;Sim;8.9;102
+498;Hospital;São Paulo;SP;12.59;Sim;7.0;53
+499;Shopping;Brasília;DF;172.0;Não;8.9;40
+500;Supermercado;Porto Alegre;RS;209.91;Não;8.7;105
+501;Indústria;Fortaleza;CE;80.13;Não;7.3;30
+502;Construção Civil;Recife;PE;199.26;Não;9.1;21
+503;Condomínio;Curitiba;PR;14.44;Sim;9.0;114
+504;Hospital;Porto Alegre;RS;65.84;Não;7.7;95
+505;Shopping;Rio de Janeiro;RJ;26.89;Sim;6.3;75
+506;Construção Civil;Belo Horizonte;MG;87.59;Não;7.9;102
+507;Supermercado;São Paulo;SP;54.97;Não;7.6;84
+508;Indústria;Brasília;DF;114.83;Não;8.5;5
+509;Restaurante;São Paulo;SP;34.77;Sim;7.2;18
+510;Condomínio;Brasília;DF;15.47;Não;7.5;63
+511;Indústria;Belo Horizonte;MG;200.81;Não;6.5;118
+512;Hospital;Rio de Janeiro;RJ;216.72;Sim;7.9;46
+513;Construção Civil;Fortaleza;CE;18.34;Sim;9.5;80
+514;Shopping;Campinas;SP;128.34;Sim;7.3;105
+515;Construção Civil;Porto Alegre;RS;206.29;Não;7.7;75
+516;Restaurante;Brasília;DF;12.45;Não;6.1;63
+517;Supermercado;Recife;PE;182.69;Sim;7.8;84
+518;Hospital;Belo Horizonte;MG;36.78;Sim;6.5;82
+519;Construção Civil;São Paulo;SP;107.08;Sim;6.4;20
+520;Hospital;Fortaleza;CE;90.33;Não;9.1;47
+521;Condomínio;Rio de Janeiro;RJ;5.89;Não;7.0;31
+522;Condomínio;Salvador;BA;79.3;Não;7.1;92
+523;Supermercado;Recife;PE;99.03;Sim;8.9;44
+524;Indústria;Fortaleza;CE;208.18;Não;6.4;19
+525;Restaurante;Curitiba;PR;72.82;Não;7.9;80
+526;Universidade;Campinas;SP;145.34;Não;9.3;78
+527;Universidade;Salvador;BA;161.68;Não;8.8;65
+528;Universidade;Curitiba;PR;43.56;Não;9.3;54
+529;Restaurante;São Paulo;SP;90.89;Sim;7.3;73
+530;Construção Civil;Recife;PE;180.55;Sim;9.5;22
+531;Hospital;Rio de Janeiro;RJ;112.8;Sim;8.7;19
+532;Construção Civil;Salvador;BA;210.31;Não;8.6;39
+533;Supermercado;Campinas;SP;105.98;Sim;7.7;66
+534;Universidade;Fortaleza;CE;22.79;Não;9.1;59
+535;Construção Civil;Rio de Janeiro;RJ;184.76;Não;9.8;78
+536;Universidade;Salvador;BA;12.21;Sim;8.4;33
+537;Condomínio;Campinas;SP;99.15;Não;9.7;15
+538;Indústria;Curitiba;PR;46.8;Não;8.6;15
+539;Restaurante;Rio de Janeiro;RJ;134.06;Sim;9.8;99
+540;Shopping;Fortaleza;CE;214.2;Não;7.9;12
+541;Restaurante;Campinas;SP;192.09;Não;7.1;83
+542;Supermercado;Brasília;DF;191.31;Sim;6.8;58
+543;Shopping;Fortaleza;CE;209.94;Sim;6.4;3
+544;Hospital;Curitiba;PR;202.99;Sim;6.8;76
+545;Restaurante;São Paulo;SP;122.11;Não;6.9;77
+546;Restaurante;Belo Horizonte;MG;158.4;Sim;8.4;104
+547;Hospital;Porto Alegre;RS;130.59;Sim;7.6;12
+548;Hospital;Campinas;SP;196.75;Não;8.0;44
+549;Construção Civil;Curitiba;PR;55.33;Não;8.0;29
+550;Indústria;Rio de Janeiro;RJ;160.34;Não;6.7;13
+551;Shopping;Recife;PE;199.07;Sim;9.3;72
+552;Construção Civil;Recife;PE;206.37;Sim;8.1;65
+553;Restaurante;Rio de Janeiro;RJ;28.48;Não;8.9;55
+554;Restaurante;Campinas;SP;127.2;Sim;8.8;91
+555;Universidade;Recife;PE;43.21;Sim;9.6;6
+556;Construção Civil;Rio de Janeiro;RJ;10.57;Não;9.8;21
+557;Construção Civil;Curitiba;PR;181.55;Sim;6.0;97
+558;Supermercado;Recife;PE;68.87;Sim;9.2;106
+559;Hospital;Recife;PE;39.35;Não;7.2;3
+560;Hospital;Recife;PE;204.58;Não;6.8;27
+561;Indústria;Fortaleza;CE;171.69;Não;6.4;8
+562;Shopping;Curitiba;PR;85.12;Sim;9.8;23
+563;Condomínio;Campinas;SP;38.99;Sim;7.0;24
+564;Hospital;Salvador;BA;82.01;Não;8.4;9
+565;Indústria;São Paulo;SP;41.79;Não;8.2;50
+566;Condomínio;Belo Horizonte;MG;157.56;Não;9.9;62
+567;Shopping;São Paulo;SP;97.52;Não;9.1;6
+568;Shopping;Recife;PE;147.89;Sim;7.0;9
+569;Construção Civil;Recife;PE;211.24;Não;8.1;78
+570;Hospital;Belo Horizonte;MG;49.04;Sim;6.3;87
+571;Shopping;Curitiba;PR;80.24;Sim;9.4;5
+572;Construção Civil;Rio de Janeiro;RJ;132.43;Não;8.5;11
+573;Hospital;São Paulo;SP;103.1;Sim;8.2;39
+574;Universidade;Fortaleza;CE;97.29;Sim;8.6;47
+575;Hospital;Porto Alegre;RS;137.5;Sim;6.1;104
+576;Restaurante;Fortaleza;CE;34.7;Não;9.2;117
+577;Indústria;São Paulo;SP;25.73;Não;9.4;12
+578;Construção Civil;Porto Alegre;RS;68.5;Não;6.5;97
+579;Condomínio;Curitiba;PR;79.24;Não;9.2;109
+580;Hospital;Fortaleza;CE;59.75;Sim;9.0;99
+581;Shopping;Rio de Janeiro;RJ;160.89;Não;7.6;60
+582;Universidade;Brasília;DF;39.37;Sim;6.8;17
+583;Indústria;Belo Horizonte;MG;112.43;Sim;6.2;32
+584;Shopping;Campinas;SP;46.54;Sim;6.8;98
+585;Supermercado;Recife;PE;169.98;Sim;9.6;41
+586;Indústria;Campinas;SP;2.98;Sim;7.9;79
+587;Indústria;Salvador;BA;29.55;Não;8.9;61
+588;Universidade;Fortaleza;CE;134.19;Sim;7.0;117
+589;Indústria;Brasília;DF;87.3;Não;6.6;11
+590;Restaurante;Rio de Janeiro;RJ;28.06;Sim;9.9;93
+591;Hospital;Belo Horizonte;MG;169.5;Sim;8.9;9
+592;Condomínio;Belo Horizonte;MG;6.37;Sim;9.8;24
+593;Restaurante;Rio de Janeiro;RJ;96.26;Não;9.7;12
+594;Construção Civil;Belo Horizonte;MG;170.84;Não;9.7;106
+595;Construção Civil;Curitiba;PR;210.33;Não;7.4;70
+596;Hospital;Salvador;BA;50.22;Sim;7.2;78
+597;Hospital;Campinas;SP;19.66;Sim;8.0;83
+598;Condomínio;Rio de Janeiro;RJ;15.27;Sim;8.9;111
+599;Hospital;Rio de Janeiro;RJ;170.75;Sim;8.6;9
+600;Construção Civil;Curitiba;PR;145.91;Sim;9.8;76
+601;Supermercado;Curitiba;PR;202.97;Sim;8.9;51
+602;Universidade;Salvador;BA;54.98;Não;6.3;18
+603;Hospital;Campinas;SP;141.74;Sim;9.9;13
+604;Universidade;Porto Alegre;RS;159.92;Sim;8.8;10
+605;Indústria;Recife;PE;13.42;Não;7.7;113
+606;Restaurante;Campinas;SP;94.97;Não;6.8;59
+607;Restaurante;Curitiba;PR;203.82;Não;9.1;68
+608;Restaurante;Salvador;BA;22.29;Não;8.7;70
+609;Shopping;Fortaleza;CE;121.47;Não;9.8;116
+610;Indústria;Salvador;BA;105.53;Sim;9.0;82
+611;Hospital;Fortaleza;CE;117.31;Não;6.3;6
+612;Supermercado;Campinas;SP;167.26;Não;8.2;5
+613;Hospital;Salvador;BA;69.69;Não;7.0;41
+614;Supermercado;Belo Horizonte;MG;217.3;Sim;9.1;108
+615;Indústria;Brasília;DF;65.05;Não;6.8;93
+616;Indústria;Campinas;SP;3.31;Não;7.5;23
+617;Restaurante;Campinas;SP;203.65;Não;8.9;41
+618;Hospital;Porto Alegre;RS;13.3;Sim;7.3;59
+619;Indústria;Recife;PE;152.04;Sim;7.6;36
+620;Hospital;Campinas;SP;45.57;Não;9.0;115
+621;Hospital;Rio de Janeiro;RJ;54.68;Sim;8.4;108
+622;Restaurante;Belo Horizonte;MG;26.33;Sim;7.0;23
+623;Shopping;Salvador;BA;87.35;Sim;6.1;85
+624;Hospital;Fortaleza;CE;101.19;Sim;8.3;60
+625;Restaurante;Belo Horizonte;MG;190.84;Não;6.3;49
+626;Shopping;Recife;PE;104.58;Sim;9.1;83
+627;Construção Civil;Curitiba;PR;17.44;Sim;6.1;47
+628;Construção Civil;São Paulo;SP;17.31;Sim;7.7;64
+629;Construção Civil;Salvador;BA;74.95;Sim;7.6;42
+630;Supermercado;Porto Alegre;RS;31.32;Não;7.6;63
+631;Supermercado;Salvador;BA;151.21;Sim;6.4;71
+632;Indústria;Brasília;DF;88.93;Não;7.7;66
+633;Supermercado;Campinas;SP;217.28;Não;9.4;37
+634;Universidade;São Paulo;SP;141.18;Não;6.4;67
+635;Condomínio;Curitiba;PR;159.42;Sim;8.6;78
+636;Condomínio;Recife;PE;10.25;Sim;6.6;6
+637;Restaurante;Recife;PE;113.91;Sim;7.3;18
+638;Restaurante;São Paulo;SP;2.67;Não;7.7;12
+639;Hospital;Porto Alegre;RS;154.77;Não;8.4;65
+640;Supermercado;Brasília;DF;218.68;Não;9.0;82
+641;Construção Civil;Recife;PE;166.99;Não;7.5;56
+642;Restaurante;Brasília;DF;215.01;Sim;6.4;73
+643;Construção Civil;Rio de Janeiro;RJ;141.98;Sim;7.8;112
+644;Shopping;Curitiba;PR;213.3;Sim;9.9;14
+645;Indústria;Recife;PE;100.42;Sim;6.6;26
+646;Condomínio;Brasília;DF;21.82;Não;6.9;102
+647;Indústria;Campinas;SP;182.52;Sim;6.8;114
+648;Hospital;Recife;PE;141.28;Sim;8.1;111
+649;Shopping;Fortaleza;CE;164.09;Sim;8.6;25
+650;Hospital;São Paulo;SP;16.29;Sim;6.8;119
+651;Hospital;Salvador;BA;55.1;Não;7.1;36
+652;Construção Civil;Campinas;SP;89.73;Não;6.7;26
+653;Condomínio;Brasília;DF;200.39;Não;9.8;54
+654;Condomínio;Curitiba;PR;183.34;Sim;7.9;107
+655;Indústria;Rio de Janeiro;RJ;127.98;Sim;8.5;27
+656;Supermercado;Fortaleza;CE;138.16;Sim;8.2;44
+657;Supermercado;Porto Alegre;RS;159.6;Sim;6.7;59
+658;Hospital;Recife;PE;115.23;Sim;9.4;59
+659;Condomínio;Porto Alegre;RS;148.26;Não;6.1;65
+660;Shopping;Fortaleza;CE;161.41;Sim;9.0;16
+661;Indústria;São Paulo;SP;39.75;Não;6.1;72
+662;Indústria;Rio de Janeiro;RJ;92.81;Sim;8.3;83
+663;Condomínio;Recife;PE;86.93;Sim;9.1;45
+664;Shopping;Curitiba;PR;105.45;Sim;8.4;84
+665;Construção Civil;Salvador;BA;203.18;Sim;6.2;102
+666;Restaurante;São Paulo;SP;148.37;Não;6.1;69
+667;Shopping;Belo Horizonte;MG;85.34;Não;8.9;104
+668;Condomínio;Rio de Janeiro;RJ;52.27;Não;8.0;78
+669;Construção Civil;Rio de Janeiro;RJ;48.66;Sim;8.7;111
+670;Supermercado;Curitiba;PR;134.92;Sim;9.5;39
+671;Construção Civil;Brasília;DF;138.93;Não;7.5;113
+672;Restaurante;Curitiba;PR;216.45;Não;6.1;83
+673;Restaurante;Belo Horizonte;MG;213.09;Sim;9.6;24
+674;Condomínio;São Paulo;SP;41.78;Não;6.2;42
+675;Supermercado;Brasília;DF;184.17;Sim;6.9;46
+676;Construção Civil;Porto Alegre;RS;139.85;Sim;8.3;26
+677;Construção Civil;Recife;PE;45.31;Não;8.0;61
+678;Restaurante;Campinas;SP;57.44;Não;6.4;59
+679;Indústria;Campinas;SP;211.25;Não;9.6;16
+680;Restaurante;Rio de Janeiro;RJ;117.91;Sim;7.1;97
+681;Indústria;Rio de Janeiro;RJ;140.11;Sim;9.1;54
+682;Universidade;Salvador;BA;177.68;Não;6.7;40
+683;Shopping;Brasília;DF;168.96;Não;8.3;107
+684;Construção Civil;Campinas;SP;88.82;Não;7.2;73
+685;Supermercado;Curitiba;PR;89.35;Sim;7.9;18
+686;Universidade;Rio de Janeiro;RJ;42.78;Sim;8.9;91
+687;Supermercado;Porto Alegre;RS;203.38;Não;8.3;120
+688;Indústria;Belo Horizonte;MG;28.08;Sim;7.3;13
+689;Restaurante;Curitiba;PR;192.02;Sim;6.9;89
+690;Condomínio;São Paulo;SP;159.2;Não;8.2;95
+691;Hospital;Curitiba;PR;68.79;Sim;7.5;67
+692;Condomínio;Brasília;DF;140.28;Sim;7.2;103
+693;Condomínio;Campinas;SP;23.47;Sim;6.5;83
+694;Supermercado;São Paulo;SP;151.08;Não;8.8;112
+695;Condomínio;Belo Horizonte;MG;90.79;Sim;9.7;120
+696;Supermercado;Curitiba;PR;16.52;Não;7.9;44
+697;Universidade;Porto Alegre;RS;103.62;Sim;6.4;20
+698;Universidade;Rio de Janeiro;RJ;115.7;Sim;6.6;70
+699;Construção Civil;Belo Horizonte;MG;145.31;Não;7.1;111
+700;Restaurante;São Paulo;SP;39.63;Sim;6.2;51
+701;Construção Civil;Campinas;SP;69.12;Não;8.9;46
+702;Condomínio;Brasília;DF;97.31;Não;8.0;20
+703;Universidade;Campinas;SP;183.38;Não;9.7;27
+704;Shopping;Campinas;SP;124.56;Não;8.2;58
+705;Universidade;São Paulo;SP;150.79;Não;6.6;45
+706;Construção Civil;São Paulo;SP;94.22;Não;9.9;118
+707;Restaurante;São Paulo;SP;46.29;Não;6.8;77
+708;Condomínio;Recife;PE;28.39;Não;6.7;30
+709;Restaurante;Campinas;SP;166.08;Sim;6.7;24
+710;Restaurante;Rio de Janeiro;RJ;199.6;Não;7.2;119
+711;Construção Civil;Porto Alegre;RS;176.45;Sim;7.2;21
+712;Shopping;Recife;PE;145.1;Sim;7.6;58
+713;Universidade;Campinas;SP;166.8;Sim;9.3;108
+714;Condomínio;Porto Alegre;RS;179.62;Não;8.2;9
+715;Hospital;São Paulo;SP;131.02;Sim;9.4;32
+716;Construção Civil;São Paulo;SP;173.64;Não;9.3;33
+717;Shopping;Curitiba;PR;92.92;Não;6.5;105
+718;Construção Civil;Curitiba;PR;114.15;Sim;9.5;7
+719;Indústria;Rio de Janeiro;RJ;211.86;Sim;6.6;42
+720;Hospital;Campinas;SP;159.76;Sim;6.8;12
+721;Hospital;Recife;PE;185.63;Não;7.0;79
+722;Construção Civil;Salvador;BA;216.88;Não;9.7;115
+723;Indústria;Rio de Janeiro;RJ;144.93;Sim;6.5;17
+724;Hospital;Fortaleza;CE;31.85;Sim;6.2;4
+725;Universidade;São Paulo;SP;78.03;Não;9.0;70
+726;Shopping;São Paulo;SP;119.24;Sim;6.4;51
+727;Construção Civil;Recife;PE;81.17;Não;7.2;100
+728;Supermercado;Brasília;DF;59.82;Sim;7.8;39
+729;Indústria;Porto Alegre;RS;162.39;Sim;6.5;46
+730;Supermercado;Recife;PE;49.92;Sim;8.5;83
+731;Supermercado;Rio de Janeiro;RJ;160.73;Sim;6.7;9
+732;Indústria;Rio de Janeiro;RJ;51.52;Não;9.7;24
+733;Indústria;Curitiba;PR;79.61;Sim;9.8;64
+734;Universidade;Porto Alegre;RS;124.52;Não;7.6;96
+735;Supermercado;Campinas;SP;12.7;Sim;8.6;56
+736;Shopping;Porto Alegre;RS;136.67;Não;9.8;88
+737;Universidade;Porto Alegre;RS;155.4;Sim;7.2;104
+738;Condomínio;Campinas;SP;123.1;Não;6.9;93
+739;Restaurante;Recife;PE;92.99;Sim;7.2;86
+740;Shopping;Belo Horizonte;MG;36.03;Não;9.7;120
+741;Condomínio;Campinas;SP;216.67;Sim;8.2;63
+742;Supermercado;Salvador;BA;53.41;Não;7.0;10
+743;Construção Civil;Recife;PE;61.07;Sim;7.1;118
+744;Shopping;Belo Horizonte;MG;57.5;Sim;9.2;115
+745;Shopping;Curitiba;PR;96.33;Não;6.8;9
+746;Hospital;Porto Alegre;RS;201.53;Não;7.5;36
+747;Construção Civil;Salvador;BA;42.97;Não;8.9;89
+748;Indústria;Recife;PE;122.28;Sim;9.5;107
+749;Construção Civil;Salvador;BA;171.91;Sim;7.6;117
+750;Shopping;Salvador;BA;88.85;Sim;7.5;13
+751;Restaurante;Curitiba;PR;29.4;Sim;8.0;59
+752;Restaurante;Belo Horizonte;MG;134.0;Sim;8.5;20
+753;Construção Civil;Belo Horizonte;MG;161.85;Não;8.8;54
+754;Condomínio;Porto Alegre;RS;136.49;Não;6.6;80
+755;Restaurante;São Paulo;SP;207.07;Sim;8.3;56
+756;Restaurante;Rio de Janeiro;RJ;156.74;Sim;6.9;28
+757;Supermercado;Salvador;BA;193.93;Sim;7.9;120
+758;Indústria;Fortaleza;CE;52.55;Sim;6.1;6
+759;Condomínio;Curitiba;PR;2.14;Não;7.7;12
+760;Hospital;Salvador;BA;4.96;Sim;7.5;36
+761;Shopping;Recife;PE;189.23;Sim;6.7;5
+762;Construção Civil;Porto Alegre;RS;41.24;Sim;6.5;102
+763;Universidade;Belo Horizonte;MG;152.59;Não;6.1;4
+764;Condomínio;Belo Horizonte;MG;186.12;Sim;8.4;86
+765;Hospital;Brasília;DF;87.69;Sim;7.5;87
+766;Construção Civil;São Paulo;SP;59.5;Sim;9.3;55
+767;Supermercado;Belo Horizonte;MG;80.1;Sim;7.5;97
+768;Universidade;Brasília;DF;100.51;Não;9.5;87
+769;Shopping;São Paulo;SP;87.96;Sim;9.4;5
+770;Restaurante;Salvador;BA;209.49;Sim;7.1;38
+771;Shopping;Recife;PE;58.66;Sim;9.6;110
+772;Condomínio;Rio de Janeiro;RJ;211.41;Sim;9.1;92
+773;Shopping;Curitiba;PR;129.16;Não;7.5;83
+774;Shopping;Fortaleza;CE;46.22;Sim;7.9;101
+775;Supermercado;Curitiba;PR;217.93;Sim;9.0;43
+776;Supermercado;São Paulo;SP;99.74;Não;6.3;21
+777;Indústria;Recife;PE;53.23;Não;7.5;67
+778;Supermercado;Belo Horizonte;MG;85.21;Não;8.9;5
+779;Supermercado;Brasília;DF;119.36;Não;7.4;67
+780;Construção Civil;Recife;PE;3.3;Não;8.9;36
+781;Universidade;Curitiba;PR;27.1;Não;8.5;96
+782;Universidade;Curitiba;PR;127.95;Não;9.1;94
+783;Construção Civil;Belo Horizonte;MG;159.08;Sim;8.9;34
+784;Restaurante;Salvador;BA;179.69;Não;6.2;113
+785;Universidade;Rio de Janeiro;RJ;59.57;Sim;8.6;13
+786;Indústria;Brasília;DF;20.77;Sim;9.4;92
+787;Condomínio;Belo Horizonte;MG;217.35;Não;9.2;45
+788;Condomínio;Campinas;SP;124.36;Não;7.2;46
+789;Condomínio;Brasília;DF;79.66;Sim;6.5;70
+790;Restaurante;Rio de Janeiro;RJ;101.03;Sim;7.9;101
+791;Indústria;Belo Horizonte;MG;54.88;Sim;9.0;5
+792;Supermercado;São Paulo;SP;9.05;Não;6.7;78
+793;Universidade;Rio de Janeiro;RJ;195.18;Sim;9.6;44
+794;Hospital;Rio de Janeiro;RJ;73.19;Sim;6.5;106
+795;Shopping;Campinas;SP;85.05;Sim;9.8;54
+796;Supermercado;Campinas;SP;8.22;Não;8.4;120
+797;Universidade;São Paulo;SP;44.06;Não;7.2;9
+798;Shopping;Brasília;DF;95.13;Sim;6.1;93
+799;Universidade;Fortaleza;CE;102.28;Não;7.8;35
+800;Construção Civil;Salvador;BA;79.66;Não;8.2;61
+801;Restaurante;Brasília;DF;46.59;Sim;9.6;5
+802;Supermercado;Curitiba;PR;43.03;Não;6.3;5
+803;Condomínio;Porto Alegre;RS;87.45;Não;6.3;30
+804;Construção Civil;Brasília;DF;97.04;Sim;8.3;118
+805;Supermercado;Porto Alegre;RS;65.65;Não;8.5;86
+806;Indústria;Porto Alegre;RS;68.02;Sim;9.6;107
+807;Supermercado;São Paulo;SP;53.78;Não;8.1;57
+808;Indústria;Recife;PE;135.99;Não;6.3;80
+809;Construção Civil;Salvador;BA;112.59;Sim;7.0;13
+810;Universidade;Belo Horizonte;MG;179.16;Não;6.3;4
+811;Supermercado;Rio de Janeiro;RJ;111.02;Sim;6.4;10
+812;Condomínio;Brasília;DF;125.52;Não;7.6;86
+813;Supermercado;São Paulo;SP;50.14;Não;6.0;21
+814;Supermercado;Recife;PE;9.45;Não;9.5;41
+815;Construção Civil;Curitiba;PR;150.78;Sim;8.0;105
+816;Condomínio;Belo Horizonte;MG;183.49;Sim;9.9;89
+817;Hospital;Brasília;DF;72.96;Sim;9.8;17
+818;Condomínio;Recife;PE;84.24;Não;6.1;46
+819;Universidade;São Paulo;SP;79.08;Não;8.9;43
+820;Construção Civil;Fortaleza;CE;208.18;Sim;6.1;101
+821;Hospital;Brasília;DF;2.21;Não;9.0;34
+822;Restaurante;Campinas;SP;144.47;Sim;9.7;114
+823;Construção Civil;São Paulo;SP;173.6;Não;8.3;50
+824;Restaurante;Recife;PE;14.98;Não;8.7;119
+825;Hospital;Rio de Janeiro;RJ;52.67;Não;9.2;53
+826;Restaurante;Fortaleza;CE;169.49;Não;6.4;111
+827;Restaurante;Porto Alegre;RS;23.11;Não;8.5;61
+828;Indústria;São Paulo;SP;219.06;Sim;7.9;81
+829;Supermercado;Fortaleza;CE;14.03;Não;9.6;73
+830;Indústria;Salvador;BA;119.03;Sim;7.9;81
+831;Condomínio;Salvador;BA;117.46;Não;7.6;110
+832;Construção Civil;Salvador;BA;98.54;Sim;6.2;43
+833;Restaurante;Campinas;SP;150.25;Sim;9.4;31
+834;Supermercado;Recife;PE;214.75;Não;9.2;107
+835;Indústria;Curitiba;PR;40.35;Não;8.2;17
+836;Shopping;Brasília;DF;181.4;Não;9.9;87
+837;Universidade;Belo Horizonte;MG;155.66;Não;6.7;6
+838;Restaurante;Recife;PE;97.41;Não;7.3;96
+839;Restaurante;Salvador;BA;195.45;Sim;8.6;75
+840;Indústria;Fortaleza;CE;83.33;Não;8.3;89
+841;Shopping;Porto Alegre;RS;205.22;Não;9.2;17
+842;Restaurante;Rio de Janeiro;RJ;187.39;Sim;6.8;21
+843;Universidade;Belo Horizonte;MG;169.75;Não;8.0;9
+844;Supermercado;Campinas;SP;140.29;Sim;6.2;119
+845;Universidade;Recife;PE;164.41;Não;6.2;3
+846;Construção Civil;Rio de Janeiro;RJ;219.22;Não;9.6;30
+847;Supermercado;São Paulo;SP;143.77;Não;7.7;96
+848;Indústria;Porto Alegre;RS;214.77;Não;9.1;93
+849;Condomínio;Salvador;BA;83.78;Não;8.6;29
+850;Indústria;São Paulo;SP;61.39;Não;7.4;76
+851;Restaurante;Brasília;DF;186.91;Sim;8.0;19
+852;Universidade;Campinas;SP;31.12;Não;7.9;7
+853;Hospital;Campinas;SP;119.6;Não;7.4;110
+854;Condomínio;Belo Horizonte;MG;216.21;Sim;9.2;65
+855;Shopping;Rio de Janeiro;RJ;66.64;Sim;7.9;102
+856;Shopping;Brasília;DF;131.01;Não;6.8;77
+857;Shopping;Porto Alegre;RS;196.2;Sim;7.1;77
+858;Supermercado;Porto Alegre;RS;91.46;Sim;9.1;102
+859;Hospital;Brasília;DF;191.01;Sim;7.7;62
+860;Construção Civil;Curitiba;PR;5.29;Não;7.7;46
+861;Restaurante;Brasília;DF;183.76;Não;9.9;3
+862;Supermercado;Brasília;DF;84.18;Não;6.3;80
+863;Supermercado;São Paulo;SP;24.42;Não;6.8;32
+864;Universidade;Salvador;BA;30.27;Não;6.5;85
+865;Universidade;São Paulo;SP;29.64;Não;9.5;22
+866;Shopping;São Paulo;SP;110.06;Sim;6.2;117
+867;Indústria;São Paulo;SP;43.68;Sim;7.5;100
+868;Hospital;Belo Horizonte;MG;36.82;Não;7.9;76
+869;Condomínio;Belo Horizonte;MG;73.12;Não;8.6;55
+870;Indústria;Porto Alegre;RS;156.59;Sim;9.1;102
+871;Construção Civil;Brasília;DF;177.05;Sim;7.3;86
+872;Supermercado;Salvador;BA;188.42;Sim;6.4;88
+873;Hospital;Salvador;BA;172.9;Sim;8.0;82
+874;Restaurante;Salvador;BA;130.28;Não;8.6;96
+875;Indústria;Campinas;SP;29.2;Não;9.0;26
+876;Indústria;Fortaleza;CE;6.68;Sim;7.0;108
+877;Construção Civil;Brasília;DF;174.14;Não;7.4;76
+878;Supermercado;Salvador;BA;117.45;Não;7.3;103
+879;Construção Civil;Brasília;DF;192.75;Sim;8.0;101
+880;Restaurante;Salvador;BA;108.05;Sim;7.0;43
+881;Universidade;Salvador;BA;41.28;Não;9.7;28
+882;Shopping;Rio de Janeiro;RJ;191.1;Sim;6.7;32
+883;Universidade;Rio de Janeiro;RJ;180.7;Não;6.9;78
+884;Universidade;Fortaleza;CE;192.0;Sim;6.5;23
+885;Universidade;Curitiba;PR;173.45;Não;8.9;101
+886;Universidade;Recife;PE;6.06;Sim;7.0;109
+887;Hospital;Salvador;BA;149.52;Sim;7.8;27
+888;Indústria;Brasília;DF;179.96;Sim;9.8;86
+889;Universidade;Belo Horizonte;MG;76.88;Não;9.0;19
+890;Restaurante;Curitiba;PR;90.44;Não;6.1;58
+891;Indústria;Brasília;DF;152.27;Não;8.8;88
+892;Shopping;Curitiba;PR;62.56;Sim;6.7;112
+893;Restaurante;Porto Alegre;RS;57.03;Não;6.0;105
+894;Universidade;Belo Horizonte;MG;157.08;Não;6.2;107
+895;Restaurante;São Paulo;SP;204.11;Não;8.3;52
+896;Universidade;Salvador;BA;111.23;Não;7.1;61
+897;Restaurante;São Paulo;SP;216.85;Não;9.2;91
+898;Indústria;São Paulo;SP;209.01;Não;8.1;98
+899;Shopping;Campinas;SP;35.05;Sim;8.3;120
+900;Indústria;Belo Horizonte;MG;117.35;Não;7.6;104
+901;Supermercado;Recife;PE;161.07;Não;7.9;82
+902;Indústria;Salvador;BA;184.72;Não;7.8;20
+903;Construção Civil;Recife;PE;26.41;Sim;6.4;114
+904;Supermercado;Salvador;BA;27.17;Não;8.0;54
+905;Restaurante;Fortaleza;CE;85.34;Não;6.2;79
+906;Construção Civil;Curitiba;PR;184.44;Sim;9.5;25
+907;Indústria;Salvador;BA;94.67;Sim;8.3;91
+908;Hospital;Brasília;DF;102.15;Não;8.7;7
+909;Indústria;Recife;PE;33.87;Não;6.6;7
+910;Construção Civil;Brasília;DF;192.81;Não;7.5;54
+911;Indústria;Belo Horizonte;MG;99.41;Sim;9.2;42
+912;Supermercado;Salvador;BA;55.59;Não;7.4;107
+913;Hospital;Campinas;SP;141.24;Sim;9.0;20
+914;Supermercado;Belo Horizonte;MG;123.27;Sim;9.4;43
+915;Hospital;Fortaleza;CE;110.09;Sim;6.9;54
+916;Condomínio;São Paulo;SP;75.17;Não;7.6;15
+917;Restaurante;Belo Horizonte;MG;45.2;Sim;7.6;45
+918;Shopping;Fortaleza;CE;82.82;Sim;8.3;44
+919;Condomínio;Recife;PE;99.87;Sim;8.0;36
+920;Shopping;São Paulo;SP;9.36;Sim;7.1;48
+921;Condomínio;Curitiba;PR;2.33;Sim;7.3;21
+922;Shopping;São Paulo;SP;92.02;Não;9.5;91
+923;Restaurante;Belo Horizonte;MG;211.94;Sim;9.6;58
+924;Universidade;Rio de Janeiro;RJ;106.65;Não;8.6;91
+925;Indústria;Fortaleza;CE;113.61;Não;8.0;99
+926;Indústria;Porto Alegre;RS;106.41;Sim;8.5;82
+927;Restaurante;Recife;PE;197.9;Não;8.3;10
+928;Shopping;Brasília;DF;100.15;Não;8.3;79
+929;Universidade;Campinas;SP;80.15;Não;8.0;37
+930;Condomínio;Belo Horizonte;MG;148.41;Não;6.3;11
+931;Restaurante;Campinas;SP;133.88;Sim;6.9;105
+932;Restaurante;Recife;PE;154.86;Não;8.0;109
+933;Shopping;Salvador;BA;9.96;Não;7.9;84
+934;Condomínio;Recife;PE;184.12;Sim;9.3;74
+935;Condomínio;Rio de Janeiro;RJ;28.7;Sim;7.0;68
+936;Condomínio;Campinas;SP;46.15;Não;9.2;101
+937;Universidade;São Paulo;SP;155.62;Sim;7.5;30
+938;Hospital;Rio de Janeiro;RJ;112.37;Não;9.0;119
+939;Universidade;São Paulo;SP;83.66;Sim;7.5;97
+940;Condomínio;Campinas;SP;16.22;Sim;8.3;88
+941;Hospital;Campinas;SP;92.84;Não;6.4;80
+942;Indústria;Fortaleza;CE;11.46;Não;6.5;116
+943;Condomínio;Porto Alegre;RS;138.08;Sim;9.1;115
+944;Universidade;Belo Horizonte;MG;61.74;Sim;6.8;65
+945;Supermercado;Rio de Janeiro;RJ;190.64;Não;7.2;38
+946;Hospital;Rio de Janeiro;RJ;92.78;Não;9.3;70
+947;Shopping;Salvador;BA;92.35;Sim;7.7;67
+948;Supermercado;Rio de Janeiro;RJ;103.18;Sim;6.2;91
+949;Supermercado;Campinas;SP;132.1;Sim;7.3;12
+950;Condomínio;Fortaleza;CE;219.14;Não;7.6;95
+951;Construção Civil;Belo Horizonte;MG;14.66;Não;7.9;120
+952;Construção Civil;Belo Horizonte;MG;194.12;Sim;6.3;38
+953;Indústria;Porto Alegre;RS;171.91;Sim;8.4;60
+954;Hospital;Porto Alegre;RS;84.38;Não;6.8;18
+955;Construção Civil;Belo Horizonte;MG;74.67;Não;7.6;91
+956;Indústria;Campinas;SP;111.28;Sim;6.0;12
+957;Condomínio;Porto Alegre;RS;207.31;Não;6.8;104
+958;Supermercado;Salvador;BA;181.47;Não;6.1;114
+959;Universidade;Brasília;DF;151.13;Sim;7.2;82
+960;Shopping;Recife;PE;216.6;Não;8.9;77
+961;Hospital;Rio de Janeiro;RJ;197.26;Não;7.8;52
+962;Condomínio;Fortaleza;CE;92.73;Sim;8.3;55
+963;Restaurante;Salvador;BA;132.14;Sim;8.4;81
+964;Shopping;Recife;PE;84.7;Sim;7.4;73
+965;Indústria;Recife;PE;210.06;Não;9.4;45
+966;Condomínio;Porto Alegre;RS;77.43;Não;9.0;98
+967;Construção Civil;Brasília;DF;10.85;Sim;9.5;40
+968;Hospital;Brasília;DF;8.0;Sim;8.4;40
+969;Supermercado;Belo Horizonte;MG;103.68;Sim;7.5;57
+970;Restaurante;Rio de Janeiro;RJ;215.66;Não;8.0;73
+971;Supermercado;Curitiba;PR;196.3;Não;6.8;44
+972;Shopping;Salvador;BA;26.46;Não;9.9;30
+973;Construção Civil;Curitiba;PR;174.0;Sim;8.2;82
+974;Indústria;Campinas;SP;23.56;Não;6.4;69
+975;Shopping;Recife;PE;119.22;Sim;7.6;105
+976;Universidade;Brasília;DF;172.01;Sim;8.8;57
+977;Hospital;Recife;PE;25.49;Sim;8.0;95
+978;Restaurante;São Paulo;SP;10.78;Sim;8.5;71
+979;Restaurante;Porto Alegre;RS;210.24;Não;8.9;102
+980;Condomínio;Rio de Janeiro;RJ;79.43;Não;6.4;109
+981;Universidade;Belo Horizonte;MG;15.83;Não;7.9;76
+982;Condomínio;Fortaleza;CE;167.82;Não;9.7;25
+983;Restaurante;Fortaleza;CE;90.24;Não;7.3;30
+984;Construção Civil;Fortaleza;CE;84.54;Sim;9.2;5
+985;Hospital;Campinas;SP;28.13;Não;8.7;95
+986;Indústria;Curitiba;PR;106.34;Sim;7.3;41
+987;Indústria;São Paulo;SP;33.42;Sim;7.4;28
+988;Condomínio;Curitiba;PR;142.61;Sim;6.0;116
+989;Hospital;Porto Alegre;RS;178.1;Sim;8.8;114
+990;Construção Civil;Curitiba;PR;109.78;Não;8.3;77
+991;Hospital;Belo Horizonte;MG;202.24;Sim;7.4;63
+992;Condomínio;Recife;PE;187.68;Não;6.2;14
+993;Condomínio;Curitiba;PR;28.71;Sim;7.8;106
+994;Condomínio;Porto Alegre;RS;105.92;Não;7.7;42
+995;Condomínio;São Paulo;SP;159.72;Não;7.4;118
+996;Indústria;Recife;PE;62.18;Sim;6.1;66
+997;Condomínio;Belo Horizonte;MG;5.03;Sim;9.5;59
+998;Universidade;São Paulo;SP;133.01;Não;6.1;4
+999;Restaurante;Salvador;BA;53.06;Não;9.9;18
+1000;Supermercado;Porto Alegre;RS;69.48;Não;9.3;60
+1001;Shopping;São Paulo;SP;93.16;Não;6.6;77
+1002;Shopping;Brasília;DF;89.79;Não;7.0;113
+1003;Hospital;Belo Horizonte;MG;79.94;Sim;9.8;10
+1004;Restaurante;Porto Alegre;RS;169.29;Sim;7.6;23
+1005;Indústria;Recife;PE;146.29;Não;8.2;95
+1006;Shopping;Fortaleza;CE;50.15;Sim;7.2;106
+1007;Condomínio;São Paulo;SP;20.63;Não;8.6;81
+1008;Restaurante;Porto Alegre;RS;203.5;Não;7.0;95
+1009;Construção Civil;Recife;PE;157.37;Sim;6.3;93
+1010;Supermercado;Rio de Janeiro;RJ;125.46;Sim;9.5;94
+1011;Universidade;Brasília;DF;219.45;Não;6.3;74
+1012;Universidade;Brasília;DF;144.85;Sim;7.5;23
+1013;Universidade;Fortaleza;CE;129.59;Sim;6.1;48
+1014;Construção Civil;Salvador;BA;34.92;Sim;8.1;59
+1015;Hospital;Fortaleza;CE;88.97;Não;7.5;19
+1016;Construção Civil;Curitiba;PR;153.38;Não;9.8;21
+1017;Construção Civil;Fortaleza;CE;146.48;Não;9.9;24
+1018;Universidade;Recife;PE;188.48;Sim;6.7;86
+1019;Indústria;Brasília;DF;32.58;Não;8.6;108
+1020;Condomínio;Salvador;BA;121.03;Não;8.9;104
+1021;Construção Civil;Belo Horizonte;MG;119.77;Sim;6.3;88
+1022;Universidade;Recife;PE;109.82;Sim;8.4;90
+1023;Shopping;Rio de Janeiro;RJ;35.27;Não;7.4;17
+1024;Universidade;Recife;PE;103.29;Sim;9.1;80
+1025;Shopping;São Paulo;SP;59.21;Não;8.3;65
+1026;Universidade;Belo Horizonte;MG;61.17;Sim;7.4;83
+1027;Shopping;Campinas;SP;67.78;Sim;9.4;106
+1028;Supermercado;Curitiba;PR;93.95;Não;7.2;65
+1029;Hospital;Belo Horizonte;MG;155.8;Não;6.0;61
+1030;Condomínio;Brasília;DF;202.13;Sim;8.7;85
+1031;Universidade;Curitiba;PR;135.02;Não;9.7;41
+1032;Universidade;Salvador;BA;69.73;Sim;7.1;92
+1033;Restaurante;Salvador;BA;209.08;Sim;6.1;119
+1034;Universidade;Fortaleza;CE;181.89;Não;8.4;24
+1035;Indústria;Recife;PE;14.03;Sim;8.2;5
+1036;Universidade;Porto Alegre;RS;181.34;Sim;7.9;61
+1037;Construção Civil;Salvador;BA;171.05;Não;7.8;46
+1038;Construção Civil;Brasília;DF;51.32;Não;8.1;35
+1039;Condomínio;Salvador;BA;210.7;Sim;9.0;100
+1040;Shopping;Salvador;BA;75.56;Sim;8.2;104
+1041;Restaurante;Salvador;BA;105.34;Sim;9.1;87
+1042;Hospital;Brasília;DF;155.67;Não;8.7;64
+1043;Shopping;Fortaleza;CE;218.53;Não;8.9;106
+1044;Indústria;Curitiba;PR;143.21;Sim;7.3;102
+1045;Hospital;São Paulo;SP;109.11;Sim;7.6;70
+1046;Hospital;Curitiba;PR;22.86;Sim;7.6;66
+1047;Condomínio;Belo Horizonte;MG;60.09;Não;6.8;102
+1048;Supermercado;São Paulo;SP;62.51;Sim;6.1;62
+1049;Restaurante;Curitiba;PR;25.96;Sim;8.8;120
+1050;Indústria;Belo Horizonte;MG;178.88;Não;9.4;44
+1051;Universidade;Brasília;DF;187.42;Sim;6.5;46
+1052;Construção Civil;Porto Alegre;RS;38.09;Não;8.8;15
+1053;Universidade;Campinas;SP;22.8;Sim;7.8;48
+1054;Shopping;Brasília;DF;134.19;Sim;9.6;55
+1055;Restaurante;Belo Horizonte;MG;63.37;Sim;7.9;81
+1056;Construção Civil;São Paulo;SP;123.07;Não;8.7;58
+1057;Construção Civil;Curitiba;PR;96.38;Sim;6.9;61
+1058;Construção Civil;Rio de Janeiro;RJ;181.94;Sim;7.5;83
+1059;Supermercado;Salvador;BA;146.21;Não;8.7;24
+1060;Restaurante;Recife;PE;46.98;Não;8.2;110
+1061;Shopping;São Paulo;SP;86.3;Sim;8.4;87
+1062;Universidade;Salvador;BA;173.08;Não;8.5;32
+1063;Shopping;Fortaleza;CE;19.77;Não;8.0;14
+1064;Shopping;Belo Horizonte;MG;41.45;Não;9.4;86
+1065;Construção Civil;Campinas;SP;85.77;Sim;9.7;29
+1066;Shopping;Fortaleza;CE;192.83;Não;6.2;67
+1067;Hospital;Campinas;SP;72.91;Não;6.7;4
+1068;Construção Civil;Porto Alegre;RS;66.64;Sim;9.6;83
+1069;Condomínio;São Paulo;SP;199.94;Não;9.0;26
+1070;Indústria;Fortaleza;CE;19.47;Sim;9.6;47
+1071;Condomínio;Brasília;DF;148.49;Não;6.2;33
+1072;Supermercado;Rio de Janeiro;RJ;173.53;Sim;9.1;32
+1073;Shopping;Rio de Janeiro;RJ;42.0;Não;6.2;88
+1074;Restaurante;Fortaleza;CE;69.46;Não;9.3;50
+1075;Indústria;Fortaleza;CE;119.43;Não;9.2;65
+1076;Condomínio;Rio de Janeiro;RJ;129.67;Sim;8.5;60
+1077;Universidade;Fortaleza;CE;201.32;Não;7.6;67
+1078;Construção Civil;Brasília;DF;128.34;Sim;9.6;89
+1079;Construção Civil;Salvador;BA;95.84;Sim;7.0;41
+1080;Supermercado;Rio de Janeiro;RJ;204.57;Sim;9.6;23
+1081;Construção Civil;Belo Horizonte;MG;204.03;Não;8.4;26
+1082;Hospital;Brasília;DF;47.29;Sim;6.7;28
+1083;Supermercado;Rio de Janeiro;RJ;108.38;Não;7.8;43
+1084;Condomínio;Fortaleza;CE;160.09;Não;9.6;44
+1085;Supermercado;Fortaleza;CE;38.96;Sim;6.6;66
+1086;Condomínio;Salvador;BA;39.29;Sim;8.2;105
+1087;Condomínio;Campinas;SP;92.92;Sim;9.6;64
+1088;Supermercado;Salvador;BA;185.59;Sim;8.2;47
+1089;Shopping;Curitiba;PR;114.73;Não;9.3;52
+1090;Restaurante;Belo Horizonte;MG;84.78;Não;7.5;14
+1091;Restaurante;São Paulo;SP;74.42;Não;9.7;75
+1092;Universidade;Salvador;BA;87.55;Sim;7.1;92
+1093;Shopping;São Paulo;SP;84.09;Não;9.2;77
+1094;Construção Civil;Salvador;BA;198.85;Não;6.4;41
+1095;Universidade;Rio de Janeiro;RJ;52.52;Não;6.7;102
+1096;Shopping;Campinas;SP;106.59;Sim;7.8;103
+1097;Construção Civil;Recife;PE;134.83;Sim;8.5;31
+1098;Condomínio;Brasília;DF;100.54;Não;6.6;34
+1099;Supermercado;Salvador;BA;166.66;Sim;8.1;5
+1100;Shopping;Campinas;SP;138.96;Não;8.8;68
+1101;Indústria;São Paulo;SP;32.58;Não;9.2;42
+1102;Supermercado;Campinas;SP;90.75;Não;8.0;91
+1103;Restaurante;São Paulo;SP;120.49;Não;8.5;84
+1104;Construção Civil;São Paulo;SP;50.9;Não;9.6;119
+1105;Supermercado;Salvador;BA;37.61;Sim;7.9;16
+1106;Indústria;Fortaleza;CE;41.39;Sim;9.2;69
+1107;Condomínio;Porto Alegre;RS;54.22;Não;7.8;90
+1108;Supermercado;Curitiba;PR;152.09;Não;6.9;71
+1109;Indústria;Curitiba;PR;31.27;Não;9.7;48
+1110;Supermercado;Belo Horizonte;MG;43.63;Não;8.1;110
+1111;Restaurante;Curitiba;PR;5.71;Não;9.0;4
+1112;Hospital;Salvador;BA;138.55;Não;7.6;63
+1113;Condomínio;Recife;PE;152.86;Sim;6.5;59
+1114;Construção Civil;Fortaleza;CE;123.67;Não;8.7;105
+1115;Construção Civil;Rio de Janeiro;RJ;157.42;Não;9.7;38
+1116;Supermercado;Rio de Janeiro;RJ;185.14;Sim;8.9;42
+1117;Condomínio;Curitiba;PR;45.34;Sim;6.2;66
+1118;Universidade;Fortaleza;CE;124.19;Sim;8.0;94
+1119;Restaurante;Curitiba;PR;193.1;Não;6.8;50
+1120;Condomínio;Belo Horizonte;MG;10.88;Sim;6.9;52
+1121;Indústria;Porto Alegre;RS;77.14;Sim;9.7;95
+1122;Restaurante;São Paulo;SP;184.43;Não;8.4;96
+1123;Condomínio;Campinas;SP;96.24;Não;7.8;40
+1124;Supermercado;Curitiba;PR;116.88;Sim;7.8;22
+1125;Shopping;Campinas;SP;206.04;Sim;7.7;71
+1126;Condomínio;Curitiba;PR;134.23;Sim;7.7;28
+1127;Restaurante;Porto Alegre;RS;12.42;Sim;7.8;25
+1128;Indústria;São Paulo;SP;103.53;Não;7.5;84
+1129;Supermercado;Belo Horizonte;MG;151.17;Não;7.3;119
+1130;Restaurante;Porto Alegre;RS;177.96;Sim;6.9;98
+1131;Condomínio;Salvador;BA;208.8;Sim;8.3;76
+1132;Supermercado;Curitiba;PR;174.06;Não;8.4;40
+1133;Universidade;Belo Horizonte;MG;2.2;Sim;7.8;16
+1134;Indústria;Fortaleza;CE;30.25;Não;6.1;58
+1135;Shopping;Fortaleza;CE;101.84;Sim;9.0;114
+1136;Construção Civil;Belo Horizonte;MG;127.37;Não;6.0;6
+1137;Shopping;Rio de Janeiro;RJ;35.78;Não;7.8;60
+1138;Shopping;Rio de Janeiro;RJ;83.81;Não;8.9;21
+1139;Hospital;Porto Alegre;RS;44.55;Sim;6.6;79
+1140;Hospital;São Paulo;SP;170.74;Sim;7.5;106
+1141;Restaurante;São Paulo;SP;149.88;Não;7.7;26
+1142;Universidade;Fortaleza;CE;217.64;Não;6.2;4
+1143;Condomínio;Brasília;DF;89.41;Não;9.5;67
+1144;Shopping;Brasília;DF;123.33;Não;7.0;83
+1145;Supermercado;Salvador;BA;43.24;Não;6.7;47
+1146;Indústria;Salvador;BA;107.8;Não;8.1;23
+1147;Hospital;Curitiba;PR;56.43;Não;8.1;88
+1148;Hospital;Belo Horizonte;MG;56.55;Sim;8.9;3
+1149;Hospital;Fortaleza;CE;89.77;Sim;8.9;85
+1150;Universidade;São Paulo;SP;54.09;Sim;6.7;112
+1151;Condomínio;Brasília;DF;100.14;Não;6.6;114
+1152;Condomínio;Fortaleza;CE;91.51;Não;9.4;26
+1153;Construção Civil;Rio de Janeiro;RJ;33.74;Não;9.9;101
+1154;Hospital;Brasília;DF;120.36;Não;6.4;57
+1155;Hospital;Campinas;SP;162.94;Não;7.0;46
+1156;Shopping;São Paulo;SP;88.19;Sim;8.3;37
+1157;Restaurante;Belo Horizonte;MG;61.19;Não;8.0;83
+1158;Shopping;Brasília;DF;118.01;Sim;8.1;120
+1159;Universidade;Fortaleza;CE;98.45;Não;7.3;25
+1160;Universidade;Rio de Janeiro;RJ;171.49;Não;8.1;59
+1161;Supermercado;Porto Alegre;RS;47.37;Não;6.2;11
+1162;Universidade;Brasília;DF;80.48;Não;8.5;24
+1163;Indústria;Rio de Janeiro;RJ;186.83;Não;7.8;109
+1164;Universidade;Brasília;DF;143.97;Sim;7.3;51
+1165;Supermercado;Recife;PE;76.7;Não;8.3;119
+1166;Indústria;São Paulo;SP;15.65;Sim;6.9;101
+1167;Hospital;Brasília;DF;71.89;Não;7.4;39
+1168;Hospital;Salvador;BA;22.31;Não;9.6;38
+1169;Universidade;Recife;PE;149.95;Sim;6.9;10
+1170;Shopping;Recife;PE;142.05;Não;8.8;12
+1171;Hospital;Belo Horizonte;MG;207.17;Não;9.8;111
+1172;Construção Civil;Porto Alegre;RS;5.89;Sim;6.5;13
+1173;Restaurante;Curitiba;PR;191.59;Não;7.1;113
+1174;Shopping;Recife;PE;166.07;Sim;8.7;49
+1175;Construção Civil;Salvador;BA;106.58;Sim;9.0;65
+1176;Universidade;Belo Horizonte;MG;135.02;Não;7.3;68
+1177;Condomínio;São Paulo;SP;159.68;Sim;8.3;89
+1178;Indústria;Porto Alegre;RS;109.04;Sim;8.2;26
+1179;Restaurante;Recife;PE;219.71;Não;8.0;89
+1180;Universidade;Rio de Janeiro;RJ;124.52;Não;6.9;102
+1181;Restaurante;Curitiba;PR;169.83;Sim;7.1;120
+1182;Universidade;Belo Horizonte;MG;117.62;Sim;7.8;106
+1183;Shopping;São Paulo;SP;64.73;Não;7.5;63
+1184;Supermercado;Porto Alegre;RS;192.7;Não;7.4;49
+1185;Restaurante;Porto Alegre;RS;107.32;Sim;9.7;74
+1186;Indústria;Curitiba;PR;40.55;Sim;7.3;97
+1187;Construção Civil;Fortaleza;CE;192.01;Sim;9.3;24
+1188;Shopping;Fortaleza;CE;209.04;Sim;9.6;93
+1189;Shopping;Brasília;DF;210.25;Sim;9.0;40
+1190;Indústria;Brasília;DF;148.46;Não;7.3;30
+1191;Restaurante;Campinas;SP;39.77;Não;6.6;15
+1192;Indústria;Rio de Janeiro;RJ;110.22;Sim;9.6;12
+1193;Condomínio;Campinas;SP;47.07;Sim;7.7;61
+1194;Indústria;São Paulo;SP;138.62;Não;7.2;34
+1195;Restaurante;Salvador;BA;172.79;Não;7.3;41
+1196;Condomínio;Rio de Janeiro;RJ;153.24;Não;6.9;81
+1197;Restaurante;Rio de Janeiro;RJ;8.06;Não;6.4;15
+1198;Indústria;Recife;PE;26.35;Não;9.4;102
+1199;Restaurante;Campinas;SP;44.47;Não;7.0;46
+1200;Restaurante;Brasília;DF;21.83;Não;9.3;105

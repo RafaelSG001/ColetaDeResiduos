@@ -1,0 +1,11 @@
+id_empresa;empresa;cidade;estado;latitude;longitude;ano_fundacao;funcionarios;clientes_ativos;certificacao_iso14001
+1;EcoCycle Ambiental;Porto Alegre;RS;-22.623528;-43.564154;2015;351;989;Sim
+2;Verde Gestão;Curitiba;PR;-24.78845;-57.875664;2007;403;582;Não
+3;Recicla Brasil;Curitiba;PR;-15.621456;-57.441265;2019;291;353;Não
+4;Sustenta Resíduos;Porto Alegre;RS;-27.594731;-54.585195;2008;310;243;Sim
+5;NovaVida Ambiental;Curitiba;PR;-20.852294;-57.620388;2019;470;1453;Não
+6;EcoSmart Coleta;Campinas;SP;-26.494498;-47.777259;2008;59;995;Sim
+7;GreenWaste Solutions;Campinas;SP;-17.246273;-39.503068;2018;193;1024;Sim
+8;LimpaCidade;Brasília;DF;-17.233419;-56.940447;2018;343;413;Sim
+9;BioColeta;Curitiba;PR;-5.118006;-40.231442;2017;157;316;Não
+10;UrbanEco;Rio de Janeiro;RJ;-11.17164;-37.406459;2018;421;858;Sim

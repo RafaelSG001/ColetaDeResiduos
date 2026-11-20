@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Entrar — Sistema de Coleta de Resíduos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/css/security-academico.css}" href="/css/security-academico.css">
+</head>
+<body>
+<main class="container">
+    <section class="card auth-card">
+        <div class="card-body p-4 p-lg-5">
+            <h1 class="h3 page-heading mb-2">Sistema de Coleta de Resíduos</h1>
+            <p class="text-secondary">Entre com seu usuário e sua senha.</p>
+
+            <div class="alert alert-danger" th:if="${param.error}">
+                Usuário ou senha inválidos.
+            </div>
+            <div class="alert alert-success" th:if="${param.logout}">
+                Sessão encerrada.
+            </div>
+            <div class="alert alert-warning" th:if="${param.expired}">
+                Sua sessão foi encerrada. Entre novamente.
+            </div>
+
+            <form method="post" th:action="@{/login}">
+                <div class="mb-3">
+                    <label class="form-label" for="username">Usuário</label>
+                    <input class="form-control" id="username" name="username" autocomplete="username" required autofocus>
+                </div>
+                <div class="mb-4">
+                    <label class="form-label" for="password">Senha</label>
+                    <input class="form-control" id="password" name="password" type="password" autocomplete="current-password" required>
+                </div>
+                <button class="btn btn-primary w-100" type="submit">Entrar</button>
+            </form>
+
+            <div class="mt-4 pt-3 border-top text-secondary small">
+                <div><strong>Contas de laboratório (H2):</strong></div>
+                <div>• Admin: <code>admin</code> / <code>admin123</code></div>
+                <div>• Operador: <code>operador</code> / <code>operador123</code></div>
+                <div>• Cliente: <code>cliente</code> / <code>cliente123</code></div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

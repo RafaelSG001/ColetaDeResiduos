@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <title>Cadastro de Pedido &mdash; Sistema de Coleta de Resíduos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/css/bootstrap-academico.css" rel="stylesheet" th:href="@{/css/bootstrap-academico.css}"/>
+</head>
+<body>
+<div th:replace="~{fragmentos/menu :: menu}"></div>
+<main class="container-fluid academic-container py-4">
+    <section class="card border-0 shadow-sm academic-surface">
+        <div class="card-body p-3 p-md-4 p-xl-5">
+            <h1 class="h3 fw-bold text-dark mb-2" th:text="${pedido.idPedido == null} ? 'Novo Pedido de Coleta' : 'Editar Pedido de Coleta'">Cadastro</h1>
+            <p class="text-secondary mb-4">Preencha os dados e salve o registro. A máquina de estados bloqueia regressões de pedidos concluídos ou cancelados.</p>
+            <section class="card border rounded-3 p-3 p-md-4">
+                <form class="academic-form" method="post" th:action="@{/pedidos/salvar}">
+                    <input name="idPedido" th:value="${pedido.idPedido}" type="hidden"/>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="codigoProtocolo">Protocolo</label>
+                        <input class="form-control" id="codigoProtocolo" name="codigoProtocolo" placeholder="Gerado automaticamente se vazio" th:value="${pedido.codigoProtocolo}" type="text"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="clienteId">Cliente Gerador</label>
+                        <select class="form-select" id="clienteId" name="clienteId" required>
+                            <option value="">Selecione...</option>
+                            <option th:each="op : ${clientes}" th:selected="${pedido.cliente != null and pedido.cliente.idCliente == op.idCliente}" th:text="|#${op.idCliente} - ${op.razaoSocial} (${op.cidade}/${op.estadoUf})|" th:value="${op.idCliente}"></option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="empresaId">Empresa Operadora</label>
+                        <select class="form-select" id="empresaId" name="empresaId" required>
+                            <option value="">Selecione...</option>
+                            <option th:each="op : ${empresas}" th:selected="${pedido.empresa != null and pedido.empresa.idEmpresa == op.idEmpresa}" th:text="${op.nomeEmpresa}" th:value="${op.idEmpresa}"></option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="dataColetaExecucao">Data da Coleta</label>
+                        <input class="form-control" id="dataColetaExecucao" name="dataColetaExecucao" required th:value="${pedido.dataColetaExecucao}" type="date"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="custoOperacionalTotal">Custo Operacional Total (R$)</label>
+                        <input class="form-control" id="custoOperacionalTotal" min="0" name="custoOperacionalTotal" required step="0.01" th:value="${pedido.custoOperacionalTotal}" type="number"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="receitaReciclagemTotal">Receita de Reciclagem Total (R$)</label>
+                        <input class="form-control" id="receitaReciclagemTotal" min="0" name="receitaReciclagemTotal" required step="0.01" th:value="${pedido.receitaReciclagemTotal}" type="number"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold" for="status">Situação / Status</label>
+                        <select class="form-select" id="status" name="status" required>
+                            <option th:each="st : ${statusValores}" th:selected="${pedido.status != null and pedido.status.name() == st.name()}" th:text="${st.rotulo}" th:value="${st.name()}"></option>
+                        </select>
+                    </div>
+                    <div class="d-flex flex-wrap gap-2 align-items-center mt-3">
+                        <button class="btn btn-primary" type="submit">Salvar</button>
+                        <a class="btn btn-outline-secondary" th:href="@{/pedidos}">Cancelar</a>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

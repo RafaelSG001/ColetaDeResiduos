@@ -1,0 +1,41 @@
+body {
+    background: #f4f7fb;
+    color: #172b4d;
+}
+
+.auth-card {
+    max-width: 440px;
+    margin: 7vh auto;
+    border: 0;
+    border-radius: 18px;
+    box-shadow: 0 12px 40px #1e35531a;
+}
+
+.app-shell {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.page-heading {
+    color: #18375d;
+    font-weight: 750;
+}
+
+.app-table th {
+    background: #eff4fb;
+}
+
+.brand-icon {
+    font-size: 1.35rem;
+}
+
+.form-section {
+    background: #fff;
+    border: 1px solid #dae3ee;
+    border-radius: 14px;
+    padding: 1.5rem;
+}
+
+.tag-role {
+    font-size: 0.79rem;
+}
