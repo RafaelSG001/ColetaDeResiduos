@@ -1,41 +1,43 @@
 body {
-    background: #f4f7fb;
-    color: #172b4d;
+    background: linear-gradient(135deg, #0b3d2e 0%, #14532d 50%, #0f4c3a 100%);
+    min-height: 100vh;
+    color: #163026;
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", sans-serif;
 }
-
 .auth-card {
     max-width: 440px;
-    margin: 7vh auto;
+    margin: 8vh auto;
     border: 0;
-    border-radius: 18px;
-    box-shadow: 0 12px 40px #1e35531a;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.28);
+    overflow: hidden;
 }
-
-.app-shell {
-    max-width: 1200px;
-    margin: auto;
+.auth-card .btn-primary {
+    background-color: #146c43;
+    border-color: #146c43;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 10px;
 }
-
+.auth-card .btn-primary:hover {
+    background-color: #0b3d2e;
+    border-color: #0b3d2e;
+}
+.auth-card .form-control:focus {
+    border-color: #10b981;
+    box-shadow: 0 0 0 .22rem rgba(16, 185, 129, 0.22);
+}
 .page-heading {
-    color: #18375d;
+    color: #0b3d2e;
     font-weight: 750;
 }
-
-.app-table th {
-    background: #eff4fb;
-}
-
-.brand-icon {
-    font-size: 1.35rem;
-}
-
-.form-section {
-    background: #fff;
-    border: 1px solid #dae3ee;
-    border-radius: 14px;
-    padding: 1.5rem;
-}
-
-.tag-role {
-    font-size: 0.79rem;
+.eco-badge-logo {
+    width: 58px;
+    height: 58px;
+    margin: 0 auto 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: #e8f5ee;
 }

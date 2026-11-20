@@ -1,1 +1,83 @@
-body{background:#f5f7fb;color:#24364b;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}.academic-navbar{background:#17365d}.academic-navbar .nav-link{color:#e4eefa;border-radius:7px;padding:.5rem .65rem}.academic-navbar .nav-link:hover,.academic-navbar .nav-link:focus{color:#fff;background:#ffffff20}.academic-container{max-width:1640px}.academic-surface{border-radius:15px}.academic-surface h1{color:#17365d!important}.academic-form{max-width:850px}.academic-surface .form-control:focus,.academic-surface .form-select:focus{border-color:#80a5d6;box-shadow:0 0 0 .2rem #4784cb27}.academic-surface .btn-primary{background:#17365d;border-color:#17365d}.academic-surface .btn-primary:hover{background:#254d7f}.academic-surface .table>thead{--bs-table-bg:#eaf0f8}.academic-surface .table>thead th{white-space:nowrap;color:#17365d}.academic-surface .table td{vertical-align:middle}.academic-surface .table .btn{white-space:nowrap}.academic-surface .card{background:#fff}.academic-surface .table-responsive{border-radius:9px}.foto-discente{width:90px;height:90px;object-fit:cover;border-radius:50%}.endereco-detalhes{border:1px solid #d6e0ef;border-radius:10px;padding:1rem;margin:1.25rem 0}.endereco-detalhes summary{font-weight:600;cursor:pointer}.campos-endereco{padding-top:1rem}.kpi-card{border:1px solid #dce5f0;box-shadow:0 2px 10px #1c31540a}.dashboard-meta{color:#63758d;font-size:.92rem}.dashboard-panel{border:1px solid #dce5f0;border-radius:14px;background:#fff}.section-heading{color:#17365d;font-weight:700;font-size:1.35rem}
+:root {
+    --eco-dark: #0b3d2e;
+    --eco-primary: #146c43;
+    --eco-accent: #10b981;
+    --eco-bg: #f3f7f4;
+    --eco-border: #d4e4dc;
+    --eco-text: #163026;
+}
+body {
+    background: var(--eco-bg);
+    color: var(--eco-text);
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.academic-container { max-width: 1640px; }
+.academic-surface {
+    border-radius: 16px;
+    border: 1px solid var(--eco-border) !important;
+    background: #ffffff;
+}
+.academic-surface h1 { color: var(--eco-dark) !important; }
+.academic-form { max-width: 850px; }
+.academic-surface .form-control:focus,
+.academic-surface .form-select:focus {
+    border-color: var(--eco-accent);
+    box-shadow: 0 0 0 .22rem rgba(16, 185, 129, 0.22);
+}
+.academic-surface .btn-primary,
+.btn-primary {
+    background-color: var(--eco-primary);
+    border-color: var(--eco-primary);
+    font-weight: 600;
+}
+.academic-surface .btn-primary:hover,
+.btn-primary:hover {
+    background-color: var(--eco-dark);
+    border-color: var(--eco-dark);
+}
+.academic-surface .btn-outline-primary {
+    color: var(--eco-primary);
+    border-color: var(--eco-primary);
+}
+.academic-surface .btn-outline-primary:hover {
+    background-color: var(--eco-primary);
+    border-color: var(--eco-primary);
+    color: #fff;
+}
+.academic-surface .table > thead {
+    --bs-table-bg: #e8f3ed;
+}
+.academic-surface .table > thead th {
+    white-space: nowrap;
+    color: var(--eco-dark);
+    font-weight: 700;
+    border-bottom: 2px solid #c5ddd1;
+}
+.academic-surface .table td { vertical-align: middle; }
+.academic-surface .table .btn { white-space: nowrap; }
+.academic-surface .card { background: #fff; border-color: var(--eco-border); }
+.academic-surface .table-responsive { border-radius: 10px; }
+.kpi-card {
+    border: 1px solid var(--eco-border);
+    border-top: 4px solid var(--eco-accent);
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(11, 61, 46, 0.05);
+    transition: transform .18s ease, box-shadow .18s ease;
+}
+.kpi-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(11, 61, 46, 0.10);
+}
+.text-primary { color: var(--eco-primary) !important; }
+.dashboard-meta { color: #527063; font-size: .92rem; }
+.dashboard-panel {
+    border: 1px solid var(--eco-border);
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 6px 24px rgba(11, 61, 46, 0.05);
+}
+.section-heading {
+    color: var(--eco-dark);
+    font-weight: 700;
+    font-size: 1.3rem;
+}

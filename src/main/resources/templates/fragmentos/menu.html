@@ -7,98 +7,17 @@
 </head>
 <body>
 <header th:fragment="menu" class="academico-menu" role="banner">
-    <style>
-        .academico-menu, .academico-menu * { box-sizing: border-box; }
-        .academico-menu {
-            display: block !important;
-            width: 100% !important;
-            background-color: #19385f !important;
-            color: #fff !important;
-            font-family: Arial, Helvetica, sans-serif;
-            box-shadow: 0 2px 8px rgba(15, 35, 60, .12);
-        }
-        .academico-menu__top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 20px;
-            min-height: 66px;
-            padding: 12px 28px;
-        }
-        .academico-menu .academico-menu__brand,
-        .academico-menu .academico-menu__brand:visited {
-            color: #fff !important;
-            font-size: 22px;
-            font-weight: 700;
-            text-decoration: none !important;
-            line-height: 1.25;
-        }
-        .academico-menu__actions { display: flex; align-items: center; gap: 16px; }
-        .academico-menu__user { color: #e3ecf7 !important; font-size: 13px; }
-        .academico-menu__logout { margin: 0 !important; }
-        .academico-menu .academico-menu__logout-button {
-            padding: 8px 16px;
-            color: #fff !important;
-            border: 1px solid rgba(255,255,255,.55) !important;
-            border-radius: 9px;
-            background: rgba(255,255,255,.08) !important;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-        }
-        .academico-menu .academico-menu__logout-button:hover,
-        .academico-menu .academico-menu__logout-button:focus-visible {
-            background: rgba(255,255,255,.2) !important;
-        }
-        .academico-menu__divider {
-            height: 1px;
-            background: rgba(255,255,255,.25);
-            margin: 0 28px;
-        }
-        .academico-menu__links {
-            display: flex !important;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 10px 22px;
-            min-height: 53px;
-            margin: 0 !important;
-            padding: 14px 18px !important;
-            list-style: none;
-        }
-        .academico-menu .academico-menu__links a,
-        .academico-menu .academico-menu__links a:visited {
-            display: inline-block;
-            color: #fff !important;
-            text-decoration: none !important;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.5;
-            white-space: nowrap;
-        }
-        .academico-menu .academico-menu__links a:hover,
-        .academico-menu .academico-menu__links a:focus-visible,
-        .academico-menu .academico-menu__brand:hover {
-            color: #d1e7ff !important;
-            text-decoration: underline !important;
-            text-underline-offset: 4px;
-        }
-        @media (max-width: 767px) {
-            .academico-menu__top { padding: 13px 16px; }
-            .academico-menu .academico-menu__brand { font-size: 18px; }
-            .academico-menu__user { display: none; }
-            .academico-menu__divider { margin: 0 16px; }
-            .academico-menu__links { gap: 10px 16px; padding: 14px 12px !important; }
-            .academico-menu .academico-menu__links a { font-size: 13px; }
-        }
-    </style>
-
+    <link rel="stylesheet" th:href="@{/css/menu-academico.css}">
     <div class="academico-menu__top">
-        <a class="academico-menu__brand" th:href="@{/}" href="/">Sistema de Coleta de Resíduos</a>
+        <a class="academico-menu__brand" th:href="@{/}">
+            <img th:src="@{/images/logo-eco.png}" alt="Logo EcoGestão Resíduos" width="36" height="36"
+                 style="background: #ffffff; border-radius: 8px; padding: 3px;">
+            <span>EcoGestão Resíduos</span>
+        </a>
         <div class="academico-menu__actions">
             <span class="academico-menu__user" sec:authorize="isAuthenticated()"
                   sec:authentication="name">Usuário</span>
-            <form class="academico-menu__logout" th:action="@{/logout}" action="/logout" method="post">
+            <form class="academico-menu__logout" th:action="@{/logout}" method="post">
                 <button class="academico-menu__logout-button" type="submit">Sair</button>
             </form>
         </div>
@@ -107,16 +26,16 @@
     <div class="academico-menu__divider" aria-hidden="true"></div>
 
     <nav class="academico-menu__links" aria-label="Navegação principal">
-        <a th:href="@{/}" href="/">Início</a>
-        <a th:href="@{/pedidos}" href="/pedidos">Pedidos de Coleta</a>
-        <a th:href="@{/itens-pedido}" href="/itens-pedido">Itens &amp; MTR</a>
-        <a th:href="@{/clientes}" href="/clientes">Clientes</a>
-        <a th:href="@{/empresas}" href="/empresas">Empresas</a>
-        <a th:href="@{/servicos}" href="/servicos">Serviços (Resíduos)</a>
-        <a th:href="@{/enderecos}" href="/enderecos">Endereços</a>
-        <a th:href="@{/tipos-edificacao}" href="/tipos-edificacao">Tipos de Edificação</a>
-        <a th:href="@{/indicadores}" href="/indicadores">Indicadores ESG</a>
-        <a th:href="@{/usuarios}" href="/usuarios" sec:authorize="hasRole('ADMIN')">Usuários</a>
+        <a th:href="@{/}">Dashboard</a>
+        <a th:href="@{/pedidos}">Pedidos de Coleta</a>
+        <a th:href="@{/itens-pedido}">Itens &amp; MTR</a>
+        <a th:href="@{/clientes}">Clientes</a>
+        <a th:href="@{/empresas}">Empresas</a>
+        <a th:href="@{/servicos}">Serviços (Resíduos)</a>
+        <a th:href="@{/enderecos}">Endereços</a>
+        <a th:href="@{/tipos-edificacao}">Tipos de Edificação</a>
+        <a th:href="@{/indicadores}">Indicadores ESG</a>
+        <a th:href="@{/usuarios}" sec:authorize="hasRole('ADMIN')">Usuários</a>
     </nav>
 </header>
 </body>
